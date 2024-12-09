@@ -26,20 +26,20 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Astrodynamics"
+    tag = "Astrodynamics"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Space Navigation"
+    tag = "Space Navigation"
   
   [[content.filter_button]]
-    name = "Human"
-    tag = "human"
+    name = "Space Tracking"
+    tag = "Space Tracking"
   
   [[content.filter_button]]
-    name = "Robotics"
-    tag = "robotics"
+    name = "Sensor Tasking"
+    tag = "Sensor Tasking"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -81,4 +81,3 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
  # CSS class.
  css_class = ""
 +++
-

@@ -42,6 +42,7 @@ hero_media = "user-2.jpg"
   label = "Contact me"
 
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
+
+## My name is **Yang Yang** and I'm a **Lecturer** specialising in **Astrodynamics, Space Navigation and Space Tracking**
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.

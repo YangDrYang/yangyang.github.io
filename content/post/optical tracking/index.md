@@ -1,11 +1,11 @@
 ---
-title: 'A Study of Snail Behavior'
-subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
-summary: Create a beautifully simple website in under 10 minutes.
+title: "Telescope alignment using the software"
+subtitle: "some story about our telescope :rocket:"
+summary: some story about our telescope.
 authors:
-- admin
+  - admin
 tags:
-- academia
+  - academia
 categories: []
 date: "2016-04-20T00:00:00Z"
 lastmod: "2019-04-17T00:00:00Z"
@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
   focal_point: ""
   preview_only: false
 
@@ -29,30 +29,30 @@ projects: []
 
 # Set captions for image gallery.
 gallery_item:
-- album: gallery
-  caption: Default
-  image: theme-default.png
-- album: gallery
-  caption: Ocean
-  image: theme-ocean.png
-- album: gallery
-  caption: Forest
-  image: theme-forest.png
-- album: gallery
-  caption: Dark
-  image: theme-dark.png
-- album: gallery
-  caption: Apogee
-  image: theme-apogee.png
-- album: gallery
-  caption: 1950s
-  image: theme-1950s.png
-- album: gallery
-  caption: Coffee theme with Playfair font
-  image: theme-coffee-playfair.png
-- album: gallery
-  caption: Strawberry
-  image: theme-strawberry.png
+  - album: gallery
+    caption: Default
+    image: theme-default.png
+  - album: gallery
+    caption: Ocean
+    image: theme-ocean.png
+  - album: gallery
+    caption: Forest
+    image: theme-forest.png
+  - album: gallery
+    caption: Dark
+    image: theme-dark.png
+  - album: gallery
+    caption: Apogee
+    image: theme-apogee.png
+  - album: gallery
+    caption: 1950s
+    image: theme-1950s.png
+  - album: gallery
+    caption: Coffee theme with Playfair font
+    image: theme-coffee-playfair.png
+  - album: gallery
+    caption: Strawberry
+    image: theme-strawberry.png
 ---
 
 **Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**
@@ -75,7 +75,7 @@ gallery_item:
 
 **Key features:**
 
-- **Page builder** - Create *anything* with [**widgets**](https://sourcethemes.com/academic/docs/page-builder/) and [**elements**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
+- **Page builder** - Create _anything_ with [**widgets**](https://sourcethemes.com/academic/docs/page-builder/) and [**elements**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
 - **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
 - **Create content** in [**Markdown**](https://sourcethemes.com/academic/docs/writing-markdown-latex/), [**Jupyter**](https://sourcethemes.com/academic/docs/jupyter/), or [**RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
 - **Plugin System** - Fully customizable [**color** and **font themes**](https://sourcethemes.com/academic/themes/)
@@ -101,17 +101,17 @@ Choose a stunning color and font theme for your site. Themes are fully customiza
 
 ## Ecosystem
 
-* **[academia Admin](https://github.com/sourcethemes/academia-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[academia Scripts](https://github.com/sourcethemes/academia-scripts):** Scripts to help migrate content to new versions of academia
+- **[academia Admin](https://github.com/sourcethemes/academia-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
+- **[academia Scripts](https://github.com/sourcethemes/academia-scripts):** Scripts to help migrate content to new versions of academia
 
 ## Install
 
 You can choose from one of the following four methods to install:
 
-* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
-* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
-* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
-* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
+- [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
+- [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
+- [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
+- [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
 
 Then [personalize and deploy your new site](https://sourcethemes.com/academic/docs/get-started/).
 
@@ -119,7 +119,7 @@ Then [personalize and deploy your new site](https://sourcethemes.com/academic/do
 
 [View the Update Guide](https://sourcethemes.com/academic/docs/update/).
 
-Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academia/) to help keep track of [updates](https://sourcethemes.com/academic/updates).
+Feel free to _star_ the project on [Github](https://github.com/gcushen/hugo-academia/) to help keep track of [updates](https://sourcethemes.com/academic/updates).
 
 ## License
 

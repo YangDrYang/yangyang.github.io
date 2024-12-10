@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Yang Yang
-avatar_image: "user-full.png"
+# avatar_image: "user-full.png"
 # Username (this should match the folder name)
 authors:
   - admin
@@ -49,23 +49,23 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "#contact" # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com.au/citations?user=0XZJ-c0AAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+    link: https://github.com/YangDrYang
+  # Link to a PDF of your resume/CV from the About widget.
+  # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+  - icon: cv
+    icon_pack: ai
+    link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "yang.yang"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

@@ -34,17 +34,17 @@
   weight = 60
 
 [[main]]
-  name = "dropdown"
+  name = "Codes"
   url = "#"
   hasChildren = true
 
 [[main]]
-  parent = "dropdown"
+  parent = "Codes"
   name = "dropdown 1"
   url = "#"
 
 [[main]]
-  parent = "dropdown"
+  parent = "Codes"
   name = "dropdown 2"
   url = "#!"
 

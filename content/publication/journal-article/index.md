@@ -1,13 +1,12 @@
 ---
-title: "An example journal article"
+title: "An example conference paper"
 authors:
-- admin
-- Robert Ford
-date: "2015-09-01T00:00:00Z"
+  - admin
+date: "2024-07-05T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-07-05T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,43 +15,44 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: IEEE Transactions on Aerospace and Electronic Systems
+publication_short: In *IEEE TAES*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Orbit determination (OD) is a fundamental problem in space surveillance and tracking, crucial for ensuring the safety of space assets. Real-world ground-based optical tracking scenarios often involve challenges such as limited measurement time, short visible arcs, and the presence of outliers, leading to sparse and non-Gaussian observational data. Additionally, the highly perturbative and nonlinear orbit dynamics of resident space objects (RSOs) in low Earth orbit (LEO) add further complexity to the OD problem. This article introduces a variant of the higher order unscented Kalman estimator (HOUSE) called w -HOUSE, which employs a square-root formulation and addresses the challenges posed by nonlinear and non-Gaussian OD problems. The effectiveness of w -HOUSE was demonstrated through synthetic and real-world measurements, specifically outlier-contaminated angle-only measurements collected for the Sentinel 6 A satellite flying in LEO. Comparative analyzes are conducted with the original HOUSE (referred to as δ -HOUSE), unscented Kalman filters (UKF), conjugate unscented transformation (CUT) filters, and precise OD solutions estimated via onboard global navigation satellite system measurements. The results reveal that the proposed w -HOUSE filter exhibits greater robustness when dealing with varying values of the dependent parameter compared to the original δ -HOUSE. Moreover, it surpasses all other filters in terms of positioning accuracy, achieving 3-D root-mean-square errors of less than 60 m in a three-day scenario. This research suggests that the w -HOUSE filter represents a viable alternative to UKF and CUT filters, offering improved positioning performance in handling the nonlinear and non-Gaussian OD problems associated with LEO RSOs.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: HOUSE based angle only orbit determination.
 
 tags:
-- Source Themes
-featured: false
+  - Source Themes
+featured: true
 
-# links:
-# - name: ""
-#   url: ""
-# url_pdf: http://arxiv.org/pdf/1512.04133v1
-# url_code: ''
-# url_dataset: ''
-# url_poster: ''
+links:
+#- name: Custom Link
+#  url: http://example.org
+# url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+# url_code: '#'
+# url_dataset: '#'
+# url_poster: '#'
 # url_project: ''
 # url_slides: ''
-# url_source: ''
-# url_video: ''
+# url_source: '#'
+# url_video: '#'
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
+# # Featured image
+# # To use, add an image named `featured.jpg/png` to your page's folder.
+# image:
+#   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+#   focal_point: ""
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects:
+# - internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -63,11 +63,11 @@ projects: []
 ---
 
 {{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /alert %}}
 
 {{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
+Click the _Slides_ button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

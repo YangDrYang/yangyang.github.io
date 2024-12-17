@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "HALO: A High-Precision Orbit Propagation Tool for Mission Design in the Cis-Lunar Domain"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
+  - admin
+date: "2024-10-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-10-07T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,13 +18,13 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: With the recent implementation of the Artemis Accords, interest in the cis-lunar space is rapidly increasing, necessitating the development of more precise and accurate modeling tools. While general-purpose mission design tools are available, this study proposes an open-source mission design tool, HALO, for High-precision Analyser for Lunar Orbits. This work presents a comprehensive review of the modeling approaches, structural design, and algorithms employed, aiming at facilitating ease of use and adaptation for other research in the cis-lunar domain. Furthermore, accuracy studies of the propagator are provided for various orbits of interest within this domain, including low lunar orbits, elliptical frozen orbits, and 3-body problem orbits, such as Near Rectilinear Halo Orbits and Distant Retrograde Orbits.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: HALO orbit propagator for cisluanr orbits.
 
 tags:
-- Source Themes
+  - Source Themes
 featured: false
 
 links:
@@ -40,9 +40,9 @@ links:
 # url_video: '#'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)"
   focal_point: ""
   preview_only: false
 
@@ -63,7 +63,7 @@ projects:
 ---
 
 {{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
+Click the _Slides_ button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

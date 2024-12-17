@@ -43,6 +43,6 @@ hero_media = "user-2.jpg"
 
 +++
 
-## My name is **Yang Yang** and I'm a **Lecturer** specialising in **Astrodynamics, Space Navigation and Space Tracking**
+## I am **Dr Yang Yang** and I'm a **Lecturer** specialising in **Astrodynamics, Space Navigation and Space Tracking**
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+To explore the space in a sustainable way.

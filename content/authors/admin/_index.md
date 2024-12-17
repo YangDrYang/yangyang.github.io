@@ -66,7 +66,7 @@ social:
     link: files/DrYangYang.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yang.yang"
+email: "yang.yang@unsw.edu.au"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -75,8 +75,8 @@ user_groups:
   - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dr Yang Yang is an astrodynamics expert specialising in space navigation and space situational awareness. His research focuses on the application of emerging space technologies in our daily lives, with a particular emphasis on fostering a safer, more secure, and sustainable space environment for humanity.
 
-![reviews](../../img/certifacates.jpg)
+<!-- ![reviews](../../img/certifacates.jpg) -->
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
+<!-- It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page. -->

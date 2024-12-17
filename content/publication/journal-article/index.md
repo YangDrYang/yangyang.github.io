@@ -3,7 +3,7 @@ title: "Square-root higher-order unscented estimators for robust orbit determina
 authors:
   - admin
 date: "2024-07-05T00:00:00Z"
-doi: ""
+doi: "10.1109/TAES.2024.3423851"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-07-05T00:00:00Z"
@@ -70,4 +70,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Click the _Slides_ button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+Supplementary notes can be added here, including [code](https://github.com/YangDrYang/orbDetHOUSE).

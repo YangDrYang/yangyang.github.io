@@ -42,7 +42,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)"
+  caption: "HALO Funcitonalities"
   focal_point: ""
   preview_only: false
 
@@ -66,4 +66,4 @@ projects:
 Click the _Slides_ button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+Supplementary notes can be added here, including [code](https://github.com/Quent2G/High-precision-Analyser-of-Lunar-Orbits).

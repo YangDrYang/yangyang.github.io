@@ -1,10 +1,10 @@
 ---
-title: Coding and Analyzing Qualitative Data
-event: academia Theme Conference
+title: Optical-Based Space Surveillance & Tracking: Leveraging UNSW Observatory for Research and Education
+event: Australia Space Research Conference
 event_url: https://example.org
-location: London, United Kingdom
-summary: An example talk using academia's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+location: Sydney, Australia
+summary: Introducing the UNSW Observatory for research and education.
+abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -32,7 +32,7 @@ links:
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "/slides/Optical_SST_Pipeline_DrYYang.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -51,17 +51,17 @@ projects:
 # - internal-project
 
 # Enable math on this page?
-math: true
+math: false
 ---
 
 {{% alert note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /alert %}}
 
-Slides can be added in a few ways:
+<!-- Slides can be added in a few ways:
 
 - **Create** slides using academia's [_Slides_](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
 
-Further talk details can easily be added to this page using _Markdown_ and $\rm \LaTeX$ math code.
+<!-- Further talk details can easily be added to this page using _Markdown_ and $\rm \LaTeX$ math code. -->

@@ -1,15 +1,15 @@
 ---
-title: Qualitative Research Summer Intensive
-event: academia Theme Conference
-event_url: https://example.org
-location: London, United Kingdom
-summary: An example talk using academia's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+title: High-precision Analyser for Lunar Orbits (HALO)
+event: The 23rd Australian Space Research Conference
+event_url: https://www.nssa.com.au/asrc2024
+location: Sydney, Australia
+summary: High-precision Analyser for Lunar Orbits (HALO).
+abstract: "Introducing the HALO tool for lunar missions."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2024-12-04T13:00:00Z"
+date_end: "2024-12-04T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -32,7 +32,7 @@ links:
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "/slides/High-precision Analyser for Lunar Orbits (HALO)_DrYYang.pdf"
+url_slides: "/slides/High-precision_Analyser_for_Lunar_Orbits (HALO)_DrYYang.pdf"
 url_video: ""
 
 # Markdown Slides (optional).

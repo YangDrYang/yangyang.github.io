@@ -23,10 +23,10 @@ date_format = "Jan 2006"
   organization_url = "https://www.ieee.org"
   title = "Senior Member"
   url = ""
-  <!-- certificate_url = "https://www.coursera.org" -->
+  certificate_url = "https://www.coursera.org"
   date_start = "2023-10-01"
   date_end = ""
-  <!-- description = "Formulated informed blockchain models, hypotheses, and use cases." -->
+  description = "Formulated informed blockchain models, hypotheses, and use cases."
 
 <!-- [[item]]
   organization = "edX"

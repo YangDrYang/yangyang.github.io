@@ -5,7 +5,7 @@ summary: UNSW Sydney AERO9500 Course.
 weight: 1
 
 # Page metadata.
-title: Overview
+title: Space Systems Architecture and Orbits
 date: "2024-12-10T00:00:00Z"
 lastmod: "2024-12-10T00:00:00Z"
 draft: false # Is this a draft? true/false

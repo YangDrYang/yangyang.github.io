@@ -8,7 +8,7 @@ weight: 1
 title: Space Systems Architecture and Orbits
 date: "2024-12-10T00:00:00Z"
 lastmod: "2024-12-10T00:00:00Z"
-draft: false # Is this a draft? true/false
+draft: true # Is this a draft? true/false
 toc: true # Show table of contents? true/false
 type: docs # Do not modify.
 

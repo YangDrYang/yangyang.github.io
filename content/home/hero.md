@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academia"
+title = "UNSW Sydney, Australia"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "user-2.jpg"
@@ -43,6 +43,6 @@ hero_media = "user-2.jpg"
 
 +++
 
-## I am **Dr Yang Yang** and I'm a **Lecturer** specialising in **Astrodynamics, Space Navigation and Space Tracking**
+## I am **Dr Yang Yang** and I'm a **Lecturer** specialising in **Astrodynamics, Space Navigation and Space Tracking.**
 
 To explore the space in a sustainable way.

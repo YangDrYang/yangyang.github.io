@@ -1,9 +1,10 @@
-<!-- ---
+---
 title: "An example conference paper"
 authors:
   - admin
 date: "2024-07-05T00:00:00Z"
 doi: ""
+draft: true
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-07-05T00:00:00Z"
@@ -12,7 +13,7 @@ publishDate: "2024-07-05T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: IEEE Transactions on Aerospace and Electronic Systems
@@ -70,4 +71,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Click the _Slides_ button above to demo academia's Markdown slides feature.
 {{% /alert %}}
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

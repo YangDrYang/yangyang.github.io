@@ -3,7 +3,7 @@ title: "HALO: A High-Precision Orbit Propagation Tool for Mission Design in the 
 authors:
   - admin
 date: "2024-10-07T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.48550/arXiv.2410.03372"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-10-07T00:00:00Z"

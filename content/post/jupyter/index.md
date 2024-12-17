@@ -1,12 +1,11 @@
 ---
-title: Display Jupyter Notebooks with academia
-subtitle: Learn how to blog in academia using Jupyter notebooks
-summary: Learn how to blog in academia using Jupyter notebooks
+title: Seoul National University Delegates Visiting MECH
+summary: SNU Department of Mechanical Engineering are visiting us on 16 Dec. 2024.
 authors:
-- admin
+  - admin
 tags: []
 categories: []
-date: "2019-02-05T00:00:00Z"
+date: "2024-12-16T00:00:00Z"
 featured: false
 draft: false
 
@@ -14,7 +13,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: "Robotics group"
   focal_point: ""
   preview_only: false
 
@@ -27,52 +26,44 @@ projects: []
 
 # Set captions for image gallery.
 gallery_item:
-- album: gallery
-  caption: Default
-  image: theme-default.png
-- album: gallery
-  caption: Ocean
-  image: theme-ocean.png
-- album: gallery
-  caption: Forest
-  image: theme-forest.png
-- album: gallery
-  caption: Dark
-  image: theme-dark.png
-- album: gallery
-  caption: Apogee
-  image: theme-apogee.png
-- album: gallery
-  caption: 1950s
-  image: theme-1950s.png
-- album: gallery
-  caption: Coffee theme with Playfair font
-  image: theme-coffee-playfair.png
-- album: gallery
-  caption: Strawberry
-  image: theme-strawberry.png
+  - album: gallery
+    caption: Default
+    image: theme-default.png
+  - album: gallery
+    caption: Ocean
+    image: theme-ocean.png
+  - album: gallery
+    caption: Forest
+    image: theme-forest.png
+  - album: gallery
+    caption: Dark
+    image: theme-dark.png
+  - album: gallery
+    caption: Apogee
+    image: theme-apogee.png
+  - album: gallery
+    caption: 1950s
+    image: theme-1950s.png
+  - album: gallery
+    caption: Coffee theme with Playfair font
+    image: theme-coffee-playfair.png
+  - album: gallery
+    caption: Strawberry
+    image: theme-strawberry.png
 ---
 
-
-```python
+<!-- ```python
 from IPython.core.display import Image
 Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
 ```
 
-
-
-
 ![png](./academia_0_0.png)
-
-
-
 
 ```python
 print("Welcome to academia!")
 ```
 
     Welcome to academia!
-
 
 ## Install Python and Jupyter
 
@@ -82,7 +73,7 @@ Otherwise, for advanced users, install Jupyter notebook with `pip3 install jupyt
 
 ## Create a new blog post [as usual](https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post)
 
-Run the following commands in your Terminal, substituting `<MY_WEBSITE_FOLDER>` and `my-post` with the file path to your academia website folder and a name for your blog post (without spaces), respectively:  
+Run the following commands in your Terminal, substituting `<MY_WEBSITE_FOLDER>` and `my-post` with the file path to your academia website folder and a name for your blog post (without spaces), respectively:
 
 ```bash
 cd <MY_WEBSITE_FOLDER>
@@ -92,7 +83,7 @@ cd <MY_WEBSITE_FOLDER>/content/post/my-post/
 
 ## Create or upload a Jupyter notebook
 
-Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (*New > Python Notebook*) or upload a notebook.
+Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (_New > Python Notebook_) or upload a notebook.
 
 ```bash
 jupyter notebook
@@ -116,4 +107,4 @@ Open `index.md` in your text editor and edit the title etc. in the [front matter
 
 To set a [featured image](https://sourcethemes.com/academic/docs/managing-content/#featured-image), place an image named `featured` into your post's folder.
 
-For other tips, such as using math, see the guide on [writing content with academia](https://sourcethemes.com/academic/docs/writing-markdown-latex/). 
+For other tips, such as using math, see the guide on [writing content with academia](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->

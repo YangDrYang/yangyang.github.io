@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: AERO9500
+linktitle: UNSW AERO9500 Course
 summary: UNSW Sydney AERO9500 Course.
 weight: 1
 

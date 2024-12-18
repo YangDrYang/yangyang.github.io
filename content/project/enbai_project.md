@@ -7,7 +7,7 @@ draft = false
 summary = "This is a summary of Project One."
 
 # Optional image to display on the homepage.
-image_preview = "project1.jpg"
+image_preview = ""
 
 # Tags for the project.
 tags = ["Research", "Machine Learning"]
@@ -31,7 +31,7 @@ image = ""
 image_caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
 
 # Optional focal point for the image.
-focal_point = "center"
+focal_point = "Smart"
 
 # Full project description.
 [extra]

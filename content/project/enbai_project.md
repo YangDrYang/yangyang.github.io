@@ -30,6 +30,9 @@ image = ""
 # Optional image caption.
 image_caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
 
+# Optional focal point for the image.
+focal_point = "center"
+
 # Full project description.
 [extra]
   project_description = """

@@ -32,7 +32,7 @@ image: ""
 image_caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
 
 # Optional focal point for the image.
-focal_point: "Smart"
+focal_point: Smart
 
 # Full project description.
 extra:

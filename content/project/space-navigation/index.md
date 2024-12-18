@@ -22,6 +22,8 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 
+authors: [admin, "enbai_ji", "rameez_malik"]
+
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.

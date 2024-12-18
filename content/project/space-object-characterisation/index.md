@@ -1,14 +1,31 @@
 ---
-title: Space Object Characterisation
-summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
+title: "Enbai Ji Project"
+summary: "This is a summary of Project One."
 tags:
-  - charactersiation
-date: "2016-04-27T00:00:00Z"
+  - Research
+  - Machine Learning
+date: "2024-07-05T00:00:00Z"
+draft: false
 
-# Optional external URL for project (replaces project detail page).
-external_link:
+# Optional external URL for the project (replaces project detail page).
+external_link: ""
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+  focal_point: "Smart"
+
+# List of authors who worked on the project.
+authors: ["enbai_ji"]
+
+# Full project description.
+extra:
+  project_description: |
+    Lunar orbit determination.
+
+# Links to the project's GitHub repository, paper, etc.
+links:
+  - name: "GitHub"
+    url: "https://github.com/student1/project1"
+  - name: "Paper"
+    url: "https://example.com/paper1"
 ---

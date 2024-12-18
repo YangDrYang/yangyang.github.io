@@ -22,6 +22,8 @@ bio = "Bio of Student One."
 # List of user groups this user belongs to
 user_groups = ["Grad Students"]
 
+interest = "Orbit determination in cislunar space"
+
 # Social/Academic Networking
 [[social]]
   icon = "envelope"

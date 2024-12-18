@@ -9,7 +9,7 @@ authors = ["rameez_malik"]
 superuser = false
 
 # Role/position
-role = "Graduate Student"
+role = "PhD Student"
 
 # Organizations/Affiliations
 organizations = [

@@ -9,7 +9,7 @@ authors = ["enbai_ji"]
 superuser = false
 
 # Role/position
-role = "Graduate Student"
+role = "MPhil Student"
 
 # Organizations/Affiliations
 organizations = [

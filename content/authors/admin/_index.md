@@ -71,8 +71,8 @@ email: "yang.yang@unsw.edu.au"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
+  - Principal Investigators
   - Researchers
-  - Visitors
 ---
 
 Dr Yang Yang is an astrodynamics expert specialising in space navigation and space situational awareness. His research focuses on the application of emerging space technologies in our daily lives, with a particular emphasis on fostering a safer, more secure, and sustainable space environment for humanity.

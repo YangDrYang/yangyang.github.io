@@ -1,12 +1,12 @@
 ---
-title: "An example conference paper"
+title: "Hardware-Based Time Synchronization for a Multi-Sensor System"
 authors:
   - admin
-date: "2024-07-05T00:00:00Z"
+date: "2024-10-14T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2099-07-05T00:00:00Z"
+publishDate: "2024-12-25T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -15,13 +15,13 @@ publishDate: "2099-07-05T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE Transactions on Aerospace and Electronic Systems
-publication_short: In *IEEE TAES*
+publication: 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+publication_short: In *IROS*
 
-abstract: Orbit determination (OD) is a fundamental problem in space surveillance and tracking, crucial for ensuring the safety of space assets. Real-world ground-based optical tracking scenarios often involve challenges such as limited measurement time, short visible arcs, and the presence of outliers, leading to sparse and non-Gaussian observational data. Additionally, the highly perturbative and nonlinear orbit dynamics of resident space objects (RSOs) in low Earth orbit (LEO) add further complexity to the OD problem. This article introduces a variant of the higher order unscented Kalman estimator (HOUSE) called w -HOUSE, which employs a square-root formulation and addresses the challenges posed by nonlinear and non-Gaussian OD problems. The effectiveness of w -HOUSE was demonstrated through synthetic and real-world measurements, specifically outlier-contaminated angle-only measurements collected for the Sentinel 6 A satellite flying in LEO. Comparative analyzes are conducted with the original HOUSE (referred to as δ -HOUSE), unscented Kalman filters (UKF), conjugate unscented transformation (CUT) filters, and precise OD solutions estimated via onboard global navigation satellite system measurements. The results reveal that the proposed w -HOUSE filter exhibits greater robustness when dealing with varying values of the dependent parameter compared to the original δ -HOUSE. Moreover, it surpasses all other filters in terms of positioning accuracy, achieving 3-D root-mean-square errors of less than 60 m in a three-day scenario. This research suggests that the w -HOUSE filter represents a viable alternative to UKF and CUT filters, offering improved positioning performance in handling the nonlinear and non-Gaussian OD problems associated with LEO RSOs.
+abstract: Accurate time synchronization is crucial for multisensor fusion, which is widely used in mobile robotics, autonomous driving, and virtual reality. Despite many advancements, precise multi-sensor synchronization is still challenging due to the sensors’ internal characteristics, data filtering, disjointed clock reference, and transmission delay caused by operation system scheduling. This paper proposes a novel hardware-based synchronization solution to achieve synchronization in microsecond-level precision. By introducing a Sensor Adaptor board that provides a unified clock reference, the proposed hardware architecture enables high-precision synchronization across multiple sensors. Furthermore, we develop a method for Visual-Inertial time synchronization that actively controls the exposure duration using an ambient light sensor. By managing the IMU clock signal and exposure trigger, we align the camera’s sampling moment with the authentic IMU sampling time and significantly reduce the time discrepancy in the Visual-Inertial system. Experiments are conducted to evaluate the efficiency of the proposed method and system, including comparisons with previous work. The results indicate that our method can achieve precise time synchronization and be successfully implemented in multi-sensor systems.
 
 # Summary. An optional shortened abstract.
-summary: HOUSE based angle only orbit determination.
+summary: Time Synchronization.
 
 tags:
   - Source Themes

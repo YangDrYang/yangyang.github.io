@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Recent & Upcoming Talks"
-subtitle = "MY FANS DON'T FEEL LIKE I HOLD ANYTHING BACK FROM THEM"
+subtitle = "FOLLOWING OUR RECENT RESEARCH DEVELOPMENT"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -38,7 +38,7 @@ subtitle = "MY FANS DON'T FEEL LIKE I HOLD ANYTHING BACK FROM THEM"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 1
+  view = 2
   
 [design.background]
   # Apply a background color, gradient, or image.

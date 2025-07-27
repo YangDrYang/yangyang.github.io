@@ -5,17 +5,17 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 title = "Recent Posts"
-subtitle = "MY FANS DON'T FEEL LIKE I HOLD ANYTHING BACK FROM THEM"
+subtitle = "ACADEMIC IS FULL OF FUN"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 6
   
   # Choose how many pages you would like to offset by
   offset = 0

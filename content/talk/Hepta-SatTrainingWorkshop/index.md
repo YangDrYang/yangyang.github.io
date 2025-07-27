@@ -5,7 +5,7 @@ event_url: https://www.nssa.com.au/asrc2024
 location: Sydney, Australia
 summary: High-precision Analyser for Lunar Orbits (HALO).
 abstract: "Introducing the HALO tool for lunar missions."
-
+draft: true
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2024-12-04T13:00:00Z"

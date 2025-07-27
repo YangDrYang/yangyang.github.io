@@ -5,16 +5,16 @@
 
 widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 80  # Order that this section will appear.
-draft = true # false it if you want a featured section
+active = true  # Activate this widget? true/false
+weight = 30  # Order that this section will appear.
+draft = false # false it if you want a featured section
 
-title = "Featured Publications"
-subtitle = ""
+title = "🌟 Latest Achievements"
+subtitle = "Celebrating our recent milestones and recognitions"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "publication"
+  page_type = "news"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 0
@@ -34,9 +34,9 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 3
+  view = 4
   
-[design.background]
+# [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
@@ -55,6 +55,10 @@ subtitle = ""
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
+# [design.background]
+#   image = "geo.jpg"
+#   gradient_start = "#94969bff"
+#   gradient_end = "#bfcde6ff"
   
 [advanced]
  # Custom CSS. 

@@ -16,16 +16,35 @@ date_format = "Jan 2006"
 #   Add/remove as many `[[item]]` blocks below as you like.
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
+#   Begin/end multi-line descriptions with 3 quotes `"""`. 
+
+[[item]]
+  organization = "UNSW Sydney"
+  organization_url = "https://www.unsw.edu.au"
+  title = "Essentials of Supervision Program"
+  url = ""
+  certificate_url = "files/essentials-of-supervision-certificate.pdf"
+  date_start = "2025-07-01"
+  date_end = "2025-07-15"
+  description = "Successfully completed the Essentials of Supervision program at UNSW and received a certificate of completion."
+
+[[item]]
+  organization = "UNSW Sydney"
+  organization_url = "https://www.unsw.edu.au"
+  title = "Research Making Impact"
+  url = ""
+  certificate_url = "files/research-making-impact-certificate.pdf"
+  date_start = "2025-03-05"
+  date_end = "2025-03-26"
+  description = "Successfully completed the Research Making Impact program at UNSW and received a badge and certificate."  
 
 [[item]]
   organization = "IEEE"
   organization_url = "https://www.ieee.org"
   title = "Senior Member"
   url = ""
-  certificate_url = "https://www.coursera.org"
+  # certificate_url = "https://www.coursera.org"
   date_start = "2023-10-01"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-
+  # description = "Formulated informed blockchain models, hypotheses, and use cases."
 +++

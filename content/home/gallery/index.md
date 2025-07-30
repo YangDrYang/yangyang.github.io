@@ -9,6 +9,6 @@ title = "Gallery"
 subtitle = "Photos with my students"
 +++
 
-Here are some photos with my students. 
+Here are some photos with my colleagues and students. 
 
 {{< gallery >}}

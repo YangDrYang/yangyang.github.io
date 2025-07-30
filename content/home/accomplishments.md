@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`. 
 
 [[item]]
+  organization = "UNSW Research Training/Nature Masterclasses"
+  organization_url = "https://www.unsw.edu.au"
+  title = "Masterclass in Scientific Writing and Publishing Certificate of Achivement"
+  url = ""
+  certificate_url = "files/certificate-of-achievement-nature.pdf"
+  date_start = "2025-07-25"
+  date_end = "2025-07-25"
+  description = "Successfully completed the one-day **Nature Masterclass on Scientific Writing and Publishing** at UNSW Sydney. This workshop was organised by **UNSW Research Training** and delivered by **David Pile** and **Susan Allison** from Nature. The session provided valuable insights into effective scientific writing and the publishing process."
+
+[[item]]
   organization = "UNSW Sydney"
   organization_url = "https://www.unsw.edu.au"
   title = "Essentials of Supervision Program"

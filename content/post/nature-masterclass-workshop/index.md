@@ -2,7 +2,7 @@
 title: "Nature Masterclass on Scientific Writing and Publishing"
 date: 2025-07-25
 featured: true
-draft: false
+draft: ture
 summary: "Successfully completed the one-day Nature Masterclass on Scientific Writing and Publishing, organised by UNSW Research Training and delivered by David Pile and Susan Allison from Nature."
 ---
 

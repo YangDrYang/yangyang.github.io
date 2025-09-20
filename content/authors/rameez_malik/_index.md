@@ -20,7 +20,7 @@ organizations = [
 bio = "Bio of Student One."
 
 # List of user groups this user belongs to
-user_groups = ["Grad Students"]
+user_groups = ["HDR Students"]
 
 interest = "Lunar navigation system design and time transfer."
 
@@ -40,6 +40,4 @@ interest = "Lunar navigation system design and time transfer."
   icon_pack = "fab"
   link = "https://github.com/student1"
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "student1@university.edu"
-+++
+++

@@ -2,12 +2,9 @@
 name: Yang Yang
 authors:
   - admin
-btn:
-  - url: "files/DrYangYang.pdf"
-    label: "Download CV"
 superuser: true
 role: Lecturer in Space Engineering
-organisations:
+organizations:
   - name: UNSW Sydney
     url: "https://www.unsw.edu.au"
 bio: Astrodynamics expert focused on space navigation, orbit determination, and space situational awareness. Passionate about applying emerging space technologies for a safer and more sustainable space environment.
@@ -41,9 +38,6 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/my-orcid?orcid=0000-0002-4134-901X    
-  - icon: cv
-    icon_pack: ai
-    link: files/DrYangYang.pdf
 email: "yang.yang16@unsw.edu.au"
 user_groups:
   - Principal Investigators

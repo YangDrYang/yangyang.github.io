@@ -2,10 +2,10 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "UNSW Sydney, Australia"
+title = "Dr Yang Yang"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "user-2.jpg"
@@ -43,6 +43,8 @@ hero_media = "user-2.jpg"
 
 +++
 
-## I am **Dr Yang Yang** and I'm a **Lecturer** specialising in **Astrodynamics, Space Navigation and Space Tracking.**
+## I am **Dr Yang Yang** and I'm a **Lecturer in Space Engineering** specialising in **Astrodynamics, Space Navigation and Space Situational Awareness.**
 
-To explore the space in a sustainable way.
+Advancing space technology to explore the cosmos sustainably and safely.
+
+[**View My Research**](#projects) · [**Download CV**](files/DrYangYang.pdf) · [**Contact Me**](#contact)

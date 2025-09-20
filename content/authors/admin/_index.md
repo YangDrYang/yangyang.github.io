@@ -2,12 +2,12 @@
 name: Yang Yang
 authors:
   - admin
-# btn:
-#   - url: "files/DrYangYang.pdf"
-#     label: "Download Resume"
+btn:
+  - url: "files/DrYangYang.pdf"
+    label: "Download CV"
 superuser: true
 role: Lecturer in Space Engineering
-organizations:
+organisations:
   - name: UNSW Sydney
     url: "https://www.unsw.edu.au"
 bio: Astrodynamics expert focused on space navigation, orbit determination, and space situational awareness. Passionate about applying emerging space technologies for a safer and more sustainable space environment.
@@ -41,9 +41,9 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/my-orcid?orcid=0000-0002-4134-901X    
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: files/DrYangYang.pdf
+  - icon: cv
+    icon_pack: ai
+    link: files/DrYangYang.pdf
 email: "yang.yang16@unsw.edu.au"
 user_groups:
   - Principal Investigators
@@ -51,3 +51,7 @@ user_groups:
 ---
 
 Dr Yang Yang is a lecturer and researcher in astrodynamics and space engineering at UNSW Sydney. His work advances space navigation, orbit determination, and situational awareness, with a mission to make space safer and more sustainable for all.
+
+His research has made significant contributions to the field, including breakthrough work on higher-order unscented Kalman estimators for robust orbit determination, published in leading aerospace journals. Dr Yang leads international collaborations and regularly conducts workshops on space technology, including CubeSat development and quantum navigation systems.
+
+With expertise spanning from theoretical astrodynamics to practical space applications, Dr Yang is committed to training the next generation of space engineers while pushing the boundaries of space navigation technology.

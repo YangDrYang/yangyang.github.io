@@ -1,0 +1,153 @@
+{{/* Pages Widget with optional Carousel mode */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "post" }}
+{{ $items_offset := $st.Params.content.offset | default 0 }}
+{{ $items_count := $st.Params.content.count }}
+{{ if eq $items_count 0 }}
+{{ $items_count = 65535 }}
+{{ else }}
+{{ $items_count = $items_count | default 5 }}
+{{ end }}
+{{ $items_sort := $st.Params.content.order | default "desc" }}
+
+{{/* Query */}}
+{{ $query := where site.RegularPages "Type" $items_type }}
+{{ $archive_page := site.GetPage "Section" $items_type }}
+
+{{/* Filters */}}
+{{ if $st.Params.content.filters.tag }}
+{{ $archive_page = site.GetPage (printf "tags/%s" $st.Params.content.filters.tag) }}
+{{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.category }}
+{{ $archive_page = site.GetPage (printf "categories/%s" $st.Params.content.filters.category) }}
+{{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.publication_type }}
+{{ $archive_page = site.GetPage (printf "publication_types/%s" $st.Params.content.filters.publication_type) }}
+{{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $st.Params.content.filters.exclude_featured }}
+{{ $query = where $query "Params.featured" "!=" true }}
+{{ end }}
+{{ if $st.Params.content.filters.exclude_past }}
+{{ $query = where $query "Date" ">=" now }}
+{{ end }}
+{{ if $st.Params.content.filters.exclude_future }}
+{{ $query = where $query "Date" "<" now }}
+{{ end }}
+
+{{ $count := len $query }}
+
+{{/* Sort */}}
+{{ $sort_by := "Date" }}
+{{ $query = sort $query $sort_by $items_sort }}
+
+{{/* Offset and Limit */}}
+{{ if gt $items_offset 0 }}
+{{ $query = first $items_count (after $items_offset $query) }}
+{{ else }}
+{{ $query = first $items_count $query }}
+{{ end }}
+
+{{/* Localisation */}}
+{{ $i18n := "" }}
+{{ if eq $items_type "post" }}
+{{ $i18n = "more_posts" }}
+{{ else if eq $items_type "talk" }}
+{{ $i18n = "more_talks" }}
+{{ else if eq $items_type "publication" }}
+{{ $i18n = "more_publications" }}
+{{ else }}
+{{ $i18n = "more_pages" }}
+{{ end }}
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    {{ with $st.Content }}<p>{{ . }}</p>{{ end }}
+  </div>
+  <div class="col-12">
+    {{ if $st.Params.design.carousel }}
+      {{/* Carousel mode */}}
+      {{ $carouselId := printf "carousel-%s" ($st.Title | urlize) }}
+      {{ $interval := (string $st.Params.design.interval | default "5000") }}
+      <div id="{{ $carouselId }}" class="carousel slide" data-ride="carousel" data-interval="{{ $interval }}" data-touch="true">
+        {{ $len := len $query }}
+        {{ if gt $len 1 }}
+        <ol class="carousel-indicators">
+          {{ range $index, $_ := $query }}
+            <li data-target="#{{ $carouselId }}" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}" {{ if eq $index 0 }}aria-current="true"{{ end }}></li>
+          {{ end }}
+        </ol>
+        {{ end }}
+
+        <div class="carousel-inner">
+          {{ range $index, $post := $query }}
+          <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+            {{ if eq $st.Params.design.view 1 }}
+              {{ partial "li_list" $post }}
+            {{ else if eq $st.Params.design.view 3 }}
+              <div class="mx-auto" style="max-width: 820px;">
+                {{ partial "li_card" $post }}
+              </div>
+            {{ else if and (eq $st.Params.design.view 4) (eq $items_type "publication") }}
+              {{ partial "li_citation" $post }}
+            {{ else }}
+              {{ partial "li_compact" $post }}
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        <a class="carousel-control-prev" href="#{{ $carouselId }}" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#{{ $carouselId }}" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      {{ if gt $count $items_count }}
+      <div class="see-all text-center mt-3">
+        <a href="{{ $archive_page.RelPermalink }}">
+          {{ i18n $i18n | default "See all" }}
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+      {{ end }}
+    {{ else }}
+      {{/* Original grid/list mode */}}
+      <div class="row justify-content-center">
+        {{ range $post := $query }}
+        {{ if eq $st.Params.design.view 1 }}
+        {{ partial "li_list" . }}
+        {{ else if eq $st.Params.design.view 3 }}
+        <div class="col-lg-4 col-md-6 mb-4">
+        {{ partial "li_card" . }}
+        </div>
+  {{ else if and (eq $st.Params.design.view 4) (eq $items_type "publication") }}
+        {{ partial "li_citation" . }}
+        {{ else }}
+        {{ partial "li_compact" . }}
+        {{ end }}
+        {{end}}
+
+        {{ if gt $count $items_count }}
+        <div class="see-all">
+          <a href="{{ $archive_page.RelPermalink }}">
+            {{ i18n $i18n | default "See all" }}
+            <i class="fas fa-angle-right"></i>
+          </a>
+        </div>
+        {{ end }}
+
+      </div>
+    {{ end }}
+  </div>
+</div>

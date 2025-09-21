@@ -25,7 +25,13 @@ summary: Time Synchronization.
 
 tags:
   - Source Themes
-featured: true
+featured: false
+
+draft: true
+
+_build:
+  list: never
+  render: false
 
 links:
 #- name: Custom Link

@@ -36,4 +36,4 @@ caption = "Sydney skyline"
 
 Here are some photos with my colleagues and students. 
 
-{{< gallery_slider album="gallery" interval="5000" >}}
+{{< gallery_slider album="gallery" interval="5000" per="2" >}}

@@ -5,6 +5,8 @@
 {{ $interval := .Get "interval" | default "5000" }}
 {{ $height := .Get "height" | default "" }}
 {{ $fit := .Get "fit" | default "" }}
+{{ $width := .Get "width" | default "" }}
+{{ $per := (.Get "per" | default 1) | int }}
 
 {{ $album_path := "" }}
 {{ $resource_page := "" }}
@@ -62,35 +64,48 @@
 <div id="{{ $carouselId }}" class="carousel slide" data-ride="carousel" data-interval="{{ $interval }}" data-touch="true">
   {{/* Indicators (dots) */}}
   {{ $count := len $slides }}
-  {{ if gt $count 1 }}
+  {{ $items := div (add $count (sub $per 1)) $per }}
+  {{ if gt $items 1 }}
   <ol class="carousel-indicators">
-    {{ range $index, $_ := $slides }}
-      <li data-target="#{{ $carouselId }}" data-slide-to="{{ $index }}" class="{{ if eq $index 0 }}active{{ end }}" {{ if eq $index 0 }}aria-current="true"{{ end }}></li>
+    {{ range $index, $_ := (seq $items) }}
+      <li data-target="#{{ $carouselId }}" data-slide-to="{{ sub $index 1 }}" class="{{ if eq $index 1 }}active{{ end }}" {{ if eq $index 1 }}aria-current="true"{{ end }}></li>
     {{ end }}
   </ol>
   {{ end }}
   <div class="carousel-inner">
-    {{ $i := 0 }}
-    {{ range $slides }}
-      {{/* Build optional inline style for height/fit */}}
-      {{ $style := "" }}
-      {{ if $height }}
-        {{ $style = printf "height: %s;" $height }}
-        {{ if eq $fit "contain" }}
-          {{ $style = printf "%s object-fit: contain; background: #fff;" $style }}
-        {{ else if eq $fit "cover" }}
-          {{ $style = printf "%s object-fit: cover;" $style }}
-        {{ end }}
-      {{ end }}
-      <div class="carousel-item {{ if eq $i 0 }}active{{ end }}">
-        <img class="d-block w-100" src="{{ .src }}" alt="" {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
-        {{ with .caption }}
-        <div class="carousel-caption d-none d-md-block">
-          <p>{{ . | markdownify | emojify }}</p>
+    {{ range $i := seq $count }}
+      {{ if eq (mod (sub $i 1) $per) 0 }}
+        <div class="carousel-item {{ if eq $i 1 }}active{{ end }}">
+          <div class="row justify-content-center">
+            {{ $tail := after (sub $i 1) $slides }}
+            {{ range first $per $tail }}
+              {{/* Build optional inline style for height/fit/width; in multi-per mode, ignore width to let grid control it */}}
+              {{ $style := "" }}
+              {{ if $height }}
+                {{ $style = printf "height: %s;" $height }}
+                {{ if eq $fit "contain" }}
+                  {{ $style = printf "%s object-fit: contain; background: #fff;" $style }}
+                {{ else if eq $fit "cover" }}
+                  {{ $style = printf "%s object-fit: cover;" $style }}
+                {{ end }}
+              {{ end }}
+              {{ $imgClass := "img-fluid" }}
+              {{ if eq $per 1 }}
+                {{ if not $width }}
+                  {{ $imgClass = printf "%s w-100 d-block" $imgClass }}
+                {{ else }}
+                  {{ $imgClass = printf "%s d-block mx-auto" $imgClass }}
+                {{ end }}
+              {{ else }}
+                {{ $imgClass = printf "%s w-100 d-block" $imgClass }}
+              {{ end }}
+              <div class="col-12 col-md-6 mb-3 d-flex justify-content-center">
+                <img class="{{ $imgClass }}" src="{{ .src }}" alt="" {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+              </div>
+            {{ end }}
+          </div>
         </div>
-        {{ end }}
-      </div>
-      {{ $i = add $i 1 }}
+      {{ end }}
     {{ end }}
   </div>
   <a class="carousel-control-prev" href="#{{ $carouselId }}" role="button" data-slide="prev">

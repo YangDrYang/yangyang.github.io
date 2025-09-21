@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Dr Yang Yang</title>
+    <link>https://doctoryangyang.com/project/</link>
+    <description>Recent content in Projects on Dr Yang Yang</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Dr Yang Yang</copyright>
+    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://doctoryangyang.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enbai Ji Project</title>
+      <link>https://doctoryangyang.com/project/enbai_project/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/enbai_project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Satellite Manoeuvre Detection</title>
+      <link>https://doctoryangyang.com/project/space-object-characterisation/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/space-object-characterisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Orbit Determination Using Advanced Filtering</title>
+      <link>https://doctoryangyang.com/project/precise-orbit-determination/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/precise-orbit-determination/</guid>
+      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;
+&lt;p&gt;This research project focuses on developing advanced orbit determination techniques using the novel Higher-Order Unscented Kalman Estimator (HOUSE) framework. The work addresses critical challenges in space surveillance and tracking, particularly for satellites in low Earth orbit (LEO).&lt;/p&gt;
+&lt;h2 id=&#34;key-achievements&#34;&gt;Key Achievements&lt;/h2&gt;
+&lt;h3 id=&#34;square-root-house-w-house-development&#34;&gt;Square-Root HOUSE (w-HOUSE) Development&lt;/h3&gt;
+&lt;p&gt;Our breakthrough research has led to the development of the w-HOUSE filter, which represents a significant advancement in nonlinear filtering for orbit determination applications. This work was published in &lt;strong&gt;IEEE Transactions on Aerospace and Electronic Systems&lt;/strong&gt; in 2024.&lt;/p&gt;
+&lt;h3 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h3&gt;
+&lt;p&gt;The w-HOUSE filter demonstrates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Superior Accuracy&lt;/strong&gt;: 3D root-mean-square errors of less than 60 metres over three-day tracking scenarios&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Robustness&lt;/strong&gt;: Better handling of outlier-contaminated measurements compared to traditional methods&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computational Efficiency&lt;/strong&gt;: Square-root formulation ensures numerical stability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-approach&#34;&gt;Technical Approach&lt;/h2&gt;
+&lt;h3 id=&#34;challenges-addressed&#34;&gt;Challenges Addressed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Limited Measurement Time&lt;/strong&gt;: Short visible arcs from ground-based optical tracking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Gaussian Data&lt;/strong&gt;: Presence of outliers in observational data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nonlinear Dynamics&lt;/strong&gt;: Highly perturbative orbit dynamics in LEO environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sparse Observations&lt;/strong&gt;: Irregular measurement availability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;methodology&#34;&gt;Methodology&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Higher-Order Unscented Transformation&lt;/strong&gt;: Enhanced sigma point selection for better nonlinear approximation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Square-Root Implementation&lt;/strong&gt;: Improved numerical stability and computational efficiency&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robust Parameter Estimation&lt;/strong&gt;: Advanced techniques for handling measurement uncertainties&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Sensor Integration&lt;/strong&gt;: Fusion of angle-only measurements with other sensor data&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;validation-and-results&#34;&gt;Validation and Results&lt;/h2&gt;
+&lt;h3 id=&#34;real-world-testing&#34;&gt;Real-World Testing&lt;/h3&gt;
+&lt;p&gt;The algorithm has been validated using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Synthetic Datasets&lt;/strong&gt;: Comprehensive Monte Carlo simulations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real Measurements&lt;/strong&gt;: Optical tracking data from Sentinel-6A satellite&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comparative Analysis&lt;/strong&gt;: Performance benchmarking against UKF, CUT filters, and precise GNSS-based solutions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;performance-metrics&#34;&gt;Performance Metrics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Positioning accuracy: &lt;strong&gt;&amp;lt; 60m RMS error&lt;/strong&gt; over 3 days&lt;/li&gt;
+&lt;li&gt;Robustness to outliers: &lt;strong&gt;30% improvement&lt;/strong&gt; over traditional methods&lt;/li&gt;
+&lt;li&gt;Computational efficiency: &lt;strong&gt;Real-time capable&lt;/strong&gt; implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;p&gt;This research has direct applications in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Space Situational Awareness&lt;/strong&gt;: Enhanced tracking of space debris and active satellites&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mission Operations&lt;/strong&gt;: Improved spacecraft navigation and collision avoidance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scientific Missions&lt;/strong&gt;: Precise orbit determination for Earth observation satellites&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commercial Space&lt;/strong&gt;: Supporting the growing commercial satellite industry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-availability&#34;&gt;Code Availability&lt;/h2&gt;
+&lt;p&gt;The implementation of the HOUSE algorithms is available on GitHub, supporting reproducible research and enabling the space community to benefit from these advances.&lt;/p&gt;
+&lt;h2 id=&#34;future-work&#34;&gt;Future Work&lt;/h2&gt;
+&lt;p&gt;Ongoing developments include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extension to higher-altitude orbits&lt;/li&gt;
+&lt;li&gt;Multi-object tracking capabilities&lt;/li&gt;
+&lt;li&gt;Integration with machine learning approaches&lt;/li&gt;
+&lt;li&gt;Real-time implementation on space-qualified hardware&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lunar Navigation Systems</title>
+      <link>https://doctoryangyang.com/project/space-navigation/</link>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/space-navigation/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project focuses on developing robust navigation systems for lunar missions, addressing the unique challenges of operating in the lunar environment where traditional Earth-based navigation systems are unavailable or unreliable.&lt;/p&gt;
+&lt;h2 id=&#34;research-objectives&#34;&gt;Research Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomous Navigation&lt;/strong&gt;: Design self-reliant navigation systems for lunar rovers and landers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-GNSS Integration&lt;/strong&gt;: Leverage multiple satellite constellations for enhanced positioning accuracy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fault-Tolerant Algorithms&lt;/strong&gt;: Develop robust estimation techniques that maintain performance under challenging conditions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Implementation&lt;/strong&gt;: Create computationally efficient algorithms suitable for space-qualified hardware&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-innovations&#34;&gt;Key Innovations&lt;/h2&gt;
+&lt;h3 id=&#34;advanced-filtering-techniques&#34;&gt;Advanced Filtering Techniques&lt;/h3&gt;
+&lt;p&gt;Our team has developed novel implementation of Higher-Order Unscented Kalman Estimators (HOUSE) specifically adapted for lunar navigation scenarios, providing superior performance compared to traditional filtering methods.&lt;/p&gt;
+&lt;h3 id=&#34;multi-sensor-fusion&#34;&gt;Multi-Sensor Fusion&lt;/h3&gt;
+&lt;p&gt;Integration of various sensor modalities including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GNSS receivers optimised for lunar operations&lt;/li&gt;
+&lt;li&gt;Inertial Measurement Units (IMUs)&lt;/li&gt;
+&lt;li&gt;Visual odometry systems&lt;/li&gt;
+&lt;li&gt;Laser altimeters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lunar-specific-challenges-addressed&#34;&gt;Lunar-Specific Challenges Addressed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Signal Availability&lt;/strong&gt;: Limited GNSS coverage in lunar polar regions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Environmental Factors&lt;/strong&gt;: Extreme temperature variations and radiation exposure&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Communication Delays&lt;/strong&gt;: Earth-Moon communication latency considerations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terrain Navigation&lt;/strong&gt;: Advanced algorithms for crater-rich lunar surface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;p&gt;This research has direct applications for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Future lunar exploration missions&lt;/li&gt;
+&lt;li&gt;Mars and deep space navigation&lt;/li&gt;
+&lt;li&gt;Earth-based autonomous vehicle navigation&lt;/li&gt;
+&lt;li&gt;Search and rescue operations in GNSS-denied environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;collaborations&#34;&gt;Collaborations&lt;/h2&gt;
+&lt;p&gt;This project involves international collaborations with research institutions in South Korea and participation in global space navigation initiatives.&lt;/p&gt;
+&lt;h2 id=&#34;current-status&#34;&gt;Current Status&lt;/h2&gt;
+&lt;p&gt;The project is actively developing prototype systems and conducting simulation studies to validate the proposed navigation architectures. Field testing with terrestrial analogs is planned for the next phase.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>General Estimation Problems</title>
+      <link>https://doctoryangyang.com/project/general-estimation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/general-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optical Tracking</title>
+      <link>https://doctoryangyang.com/project/optical-tracking/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/optical-tracking/</guid>
+      <description>&lt;p&gt;Optical tracking is a powerful technique for monitoring satellites and space debris using ground-based telescopes. Our team at UNSW has developed advanced algorithms for image processing and orbit determination.&lt;/p&gt;
+&lt;h2 id=&#34;project-highlights&#34;&gt;Project Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a custom tracking pipeline for faint objects.&lt;/li&gt;
+&lt;li&gt;Collaborated with the UNSW School of Physics for telescope access.&lt;/li&gt;
+&lt;li&gt;Published results in leading journals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Telescope Setup&#34; src=&#34;https://doctoryangyang.com/img/project/optical-telescope-setup.jpg&#34;&gt;
+&lt;em&gt;Our ground-based optical telescope at UNSW.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Tracking Results&#34; src=&#34;https://doctoryangyang.com/img/project/tracking-results.jpg&#34;&gt;
+&lt;em&gt;Sample tracking results of a low-Earth orbit satellite.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;more-information&#34;&gt;More Information&lt;/h2&gt;
+&lt;p&gt;For more details, visit the &lt;a href=&#34;https://www.unsw-observatory.org&#34;&gt;UNSW Observatory&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

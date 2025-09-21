@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>POD on Dr Yang Yang</title>
+    <link>https://doctoryangyang.com/tags/pod/</link>
+    <description>Recent content in POD on Dr Yang Yang</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Dr Yang Yang</copyright>
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://doctoryangyang.com/tags/pod/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Precise Orbit Determination Using Advanced Filtering</title>
+      <link>https://doctoryangyang.com/project/precise-orbit-determination/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/precise-orbit-determination/</guid>
+      <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;
+&lt;p&gt;This research project focuses on developing advanced orbit determination techniques using the novel Higher-Order Unscented Kalman Estimator (HOUSE) framework. The work addresses critical challenges in space surveillance and tracking, particularly for satellites in low Earth orbit (LEO).&lt;/p&gt;
+&lt;h2 id=&#34;key-achievements&#34;&gt;Key Achievements&lt;/h2&gt;
+&lt;h3 id=&#34;square-root-house-w-house-development&#34;&gt;Square-Root HOUSE (w-HOUSE) Development&lt;/h3&gt;
+&lt;p&gt;Our breakthrough research has led to the development of the w-HOUSE filter, which represents a significant advancement in nonlinear filtering for orbit determination applications. This work was published in &lt;strong&gt;IEEE Transactions on Aerospace and Electronic Systems&lt;/strong&gt; in 2024.&lt;/p&gt;
+&lt;h3 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h3&gt;
+&lt;p&gt;The w-HOUSE filter demonstrates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Superior Accuracy&lt;/strong&gt;: 3D root-mean-square errors of less than 60 metres over three-day tracking scenarios&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Robustness&lt;/strong&gt;: Better handling of outlier-contaminated measurements compared to traditional methods&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computational Efficiency&lt;/strong&gt;: Square-root formulation ensures numerical stability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-approach&#34;&gt;Technical Approach&lt;/h2&gt;
+&lt;h3 id=&#34;challenges-addressed&#34;&gt;Challenges Addressed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Limited Measurement Time&lt;/strong&gt;: Short visible arcs from ground-based optical tracking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Non-Gaussian Data&lt;/strong&gt;: Presence of outliers in observational data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nonlinear Dynamics&lt;/strong&gt;: Highly perturbative orbit dynamics in LEO environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sparse Observations&lt;/strong&gt;: Irregular measurement availability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;methodology&#34;&gt;Methodology&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Higher-Order Unscented Transformation&lt;/strong&gt;: Enhanced sigma point selection for better nonlinear approximation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Square-Root Implementation&lt;/strong&gt;: Improved numerical stability and computational efficiency&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robust Parameter Estimation&lt;/strong&gt;: Advanced techniques for handling measurement uncertainties&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Sensor Integration&lt;/strong&gt;: Fusion of angle-only measurements with other sensor data&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;validation-and-results&#34;&gt;Validation and Results&lt;/h2&gt;
+&lt;h3 id=&#34;real-world-testing&#34;&gt;Real-World Testing&lt;/h3&gt;
+&lt;p&gt;The algorithm has been validated using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Synthetic Datasets&lt;/strong&gt;: Comprehensive Monte Carlo simulations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real Measurements&lt;/strong&gt;: Optical tracking data from Sentinel-6A satellite&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comparative Analysis&lt;/strong&gt;: Performance benchmarking against UKF, CUT filters, and precise GNSS-based solutions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;performance-metrics&#34;&gt;Performance Metrics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Positioning accuracy: &lt;strong&gt;&amp;lt; 60m RMS error&lt;/strong&gt; over 3 days&lt;/li&gt;
+&lt;li&gt;Robustness to outliers: &lt;strong&gt;30% improvement&lt;/strong&gt; over traditional methods&lt;/li&gt;
+&lt;li&gt;Computational efficiency: &lt;strong&gt;Real-time capable&lt;/strong&gt; implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;p&gt;This research has direct applications in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Space Situational Awareness&lt;/strong&gt;: Enhanced tracking of space debris and active satellites&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mission Operations&lt;/strong&gt;: Improved spacecraft navigation and collision avoidance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scientific Missions&lt;/strong&gt;: Precise orbit determination for Earth observation satellites&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commercial Space&lt;/strong&gt;: Supporting the growing commercial satellite industry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-availability&#34;&gt;Code Availability&lt;/h2&gt;
+&lt;p&gt;The implementation of the HOUSE algorithms is available on GitHub, supporting reproducible research and enabling the space community to benefit from these advances.&lt;/p&gt;
+&lt;h2 id=&#34;future-work&#34;&gt;Future Work&lt;/h2&gt;
+&lt;p&gt;Ongoing developments include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extension to higher-altitude orbits&lt;/li&gt;
+&lt;li&gt;Multi-object tracking capabilities&lt;/li&gt;
+&lt;li&gt;Integration with machine learning approaches&lt;/li&gt;
+&lt;li&gt;Real-time implementation on space-qualified hardware&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

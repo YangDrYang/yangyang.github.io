@@ -20,7 +20,7 @@ organizations = [
 bio = "Bio of Student One."
 
 # List of user groups this user belongs to
-user_groups = ["Grad Students"]
+user_groups = ["HDR Students"]
 
 interest = "Orbit determination in cislunar space"
 

@@ -7,7 +7,7 @@ caption: "Group Photo" # Caption text for the featured image
 focal_point: "" # Focal point for image cropping (can be left blank)
 preview_only: true # If true, image is only used as a preview/thumbnail
 draft: false # If true, the post is a draft and won't be published
-summary: "2025 UNSW Open Day"
+summary: "2025 UNSW Sydney Open Day (Copyright: UNSW Sydney)"
 ---
 
 On 6 September, 2025, Dr Yang Yang volunteer in the UNSW 2025 Open Day as an academic from the School of Mechnical and Manufacturing Engineering.

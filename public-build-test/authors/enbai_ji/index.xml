@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr Yang Yang</title>
+    <link>https://doctoryangyang.com/authors/enbai_ji/</link>
+    <description>Recent content on Dr Yang Yang</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Dr Yang Yang</copyright>
+    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://doctoryangyang.com/authors/enbai_ji/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://doctoryangyang.com/authors/enbai_ji/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/authors/enbai_ji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enbai Ji Project</title>
+      <link>https://doctoryangyang.com/project/enbai_project/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/enbai_project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lunar Navigation Systems</title>
+      <link>https://doctoryangyang.com/project/space-navigation/</link>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/project/space-navigation/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project focuses on developing robust navigation systems for lunar missions, addressing the unique challenges of operating in the lunar environment where traditional Earth-based navigation systems are unavailable or unreliable.&lt;/p&gt;
+&lt;h2 id=&#34;research-objectives&#34;&gt;Research Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomous Navigation&lt;/strong&gt;: Design self-reliant navigation systems for lunar rovers and landers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-GNSS Integration&lt;/strong&gt;: Leverage multiple satellite constellations for enhanced positioning accuracy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fault-Tolerant Algorithms&lt;/strong&gt;: Develop robust estimation techniques that maintain performance under challenging conditions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Implementation&lt;/strong&gt;: Create computationally efficient algorithms suitable for space-qualified hardware&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-innovations&#34;&gt;Key Innovations&lt;/h2&gt;
+&lt;h3 id=&#34;advanced-filtering-techniques&#34;&gt;Advanced Filtering Techniques&lt;/h3&gt;
+&lt;p&gt;Our team has developed novel implementation of Higher-Order Unscented Kalman Estimators (HOUSE) specifically adapted for lunar navigation scenarios, providing superior performance compared to traditional filtering methods.&lt;/p&gt;
+&lt;h3 id=&#34;multi-sensor-fusion&#34;&gt;Multi-Sensor Fusion&lt;/h3&gt;
+&lt;p&gt;Integration of various sensor modalities including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GNSS receivers optimised for lunar operations&lt;/li&gt;
+&lt;li&gt;Inertial Measurement Units (IMUs)&lt;/li&gt;
+&lt;li&gt;Visual odometry systems&lt;/li&gt;
+&lt;li&gt;Laser altimeters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;lunar-specific-challenges-addressed&#34;&gt;Lunar-Specific Challenges Addressed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Signal Availability&lt;/strong&gt;: Limited GNSS coverage in lunar polar regions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Environmental Factors&lt;/strong&gt;: Extreme temperature variations and radiation exposure&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Communication Delays&lt;/strong&gt;: Earth-Moon communication latency considerations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terrain Navigation&lt;/strong&gt;: Advanced algorithms for crater-rich lunar surface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;p&gt;This research has direct applications for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Future lunar exploration missions&lt;/li&gt;
+&lt;li&gt;Mars and deep space navigation&lt;/li&gt;
+&lt;li&gt;Earth-based autonomous vehicle navigation&lt;/li&gt;
+&lt;li&gt;Search and rescue operations in GNSS-denied environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;collaborations&#34;&gt;Collaborations&lt;/h2&gt;
+&lt;p&gt;This project involves international collaborations with research institutions in South Korea and participation in global space navigation initiatives.&lt;/p&gt;
+&lt;h2 id=&#34;current-status&#34;&gt;Current Status&lt;/h2&gt;
+&lt;p&gt;The project is actively developing prototype systems and conducting simulation studies to validate the proposed navigation architectures. Field testing with terrestrial analogs is planned for the next phase.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

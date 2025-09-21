@@ -1,0 +1,40 @@
+{{/* Renders the Experience table content from the home section under About. */}}
+{{ $exp := site.GetPage "page" "home/experience-table" }}
+{{ if not $exp }}
+  {{ $exp = site.GetPage "/home/experience-table" }}
+{{ end }}
+{{ if not $exp }}
+  {{ $exp = site.GetPage "home" "experience-table" }}
+{{ end }}
+<style>
+  .about-exp h3 { margin-top: 0.75rem; margin-bottom: 0.5rem; }
+  .about-exp-table { display: flex; justify-content: center; }
+  .about-exp-table table { margin: 0 auto; }
+  .about-exp-table table th, .about-exp-table table td { vertical-align: middle; }
+</style>
+
+{{ if $exp }}
+  <div class="about-exp">
+    <h3 class="h5">Experience</h3>
+    <div class="about-exp-table">
+      {{ $exp.Content }}
+    </div>
+  </div>
+{{ else }}
+  {{/* Fallback: read raw file and strip front matter, then render. */}}
+  {{ $raw := readFile "content/home/experience-table.md" }}
+  {{ if $raw }}
+    {{ $sep := "+++\n" }}
+    {{ $parts := split $raw $sep }}
+    {{ $body := $raw }}
+    {{ if ge (len $parts) 3 }}
+      {{ $body = index $parts 2 }}
+    {{ end }}
+    <div class="about-exp">
+      <h3 class="h5">Experience</h3>
+      <div class="about-exp-table">
+        {{ $body | markdownify }}
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

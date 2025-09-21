@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AERO9500 Space Systems — Architectures and Orbits (2025) on Dr Yang Yang</title>
+    <link>https://doctoryangyang.com/courses/aero9500/</link>
+    <description>Recent content in AERO9500 Space Systems — Architectures and Orbits (2025) on Dr Yang Yang</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Dr Yang Yang</copyright>
+    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://doctoryangyang.com/courses/aero9500/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>https://doctoryangyang.com/courses/aero9500/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://doctoryangyang.com/courses/aero9500/example1/</guid>
+      <description>&lt;p&gt;Tips for this course:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>https://doctoryangyang.com/courses/aero9500/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://doctoryangyang.com/courses/aero9500/example2/</guid>
+      <description>&lt;p&gt;Tips for the course:&lt;/p&gt;
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

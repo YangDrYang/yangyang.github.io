@@ -127,10 +127,12 @@
       })(window, document, "clarity", "script", "{{ site.Params.microsoft_clarity }}");
     </script>
   {{ end }}
-  {{ if site.GoogleAnalytics }}
+  {{/* Resolve GA ID from new services config only (no legacy access to avoid errors). */}}
+  {{ $gaid := default "" .Site.Config.Services.GoogleAnalytics.ID }}
+  {{ with $gaid }}
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ site.GoogleAnalytics }}', 'auto');
+      ga('create', '{{ . }}', 'auto');
       {{ if site.Params.privacy_pack }}ga('set', 'anonymizeIp', true);{{ end }}
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');

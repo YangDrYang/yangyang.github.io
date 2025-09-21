@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on Dr Yang Yang</title>
+    <link>https://doctoryangyang.com/tags/welcome/</link>
+    <description>Recent content in Welcome on Dr Yang Yang</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year} Dr Yang Yang</copyright>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://doctoryangyang.com/tags/welcome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to My Academic Website</title>
+      <link>https://doctoryangyang.com/post/getting-started/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://doctoryangyang.com/post/getting-started/</guid>
+      <description>&lt;p&gt;Welcome to my academic website! I&amp;rsquo;m &lt;strong&gt;Dr Yang Yang&lt;/strong&gt;, a Lecturer in Space Engineering at UNSW Sydney, specialising in astrodynamics, space navigation, and space situational awareness.&lt;/p&gt;
+&lt;h2 id=&#34;my-research-focus&#34;&gt;My Research Focus&lt;/h2&gt;
+&lt;p&gt;My research centres on developing advanced techniques for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orbit Determination&lt;/strong&gt;: Creating robust algorithms for precise spacecraft tracking&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space Navigation&lt;/strong&gt;: Advancing GNSS-based and autonomous navigation systems&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Space Situational Awareness&lt;/strong&gt;: Improving our ability to monitor and track space objects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estimation Theory&lt;/strong&gt;: Developing novel filtering techniques like the HOUSE (Higher-Order Unscented Kalman Estimator)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recent-highlights&#34;&gt;Recent Highlights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Published breakthrough research on &lt;strong&gt;square-root higher-order unscented estimators&lt;/strong&gt; in IEEE Transactions on Aerospace and Electronic Systems&lt;/li&gt;
+&lt;li&gt;Conducting international collaborations with institutions in South Korea and other countries&lt;/li&gt;
+&lt;li&gt;Teaching advanced courses in space engineering (AERO9500, AERO9610)&lt;/li&gt;
+&lt;li&gt;Leading workshops on CubeSat technology and space navigation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-youll-find-here&#34;&gt;What You&amp;rsquo;ll Find Here&lt;/h2&gt;
+&lt;p&gt;This website showcases my:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Research Projects&lt;/strong&gt;: From lunar navigation architectures to space object characterization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publications&lt;/strong&gt;: Peer-reviewed articles and conference papers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teaching&lt;/strong&gt;: Course materials and educational resources&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional Activities&lt;/strong&gt;: Workshops, talks, and international collaborations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in Touch&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m always interested in collaborating on space engineering challenges. Whether you&amp;rsquo;re a student, researcher, or industry professional, feel free to &lt;a href=&#34;https://doctoryangyang.com/#contact&#34;&gt;contact me&lt;/a&gt; to discuss potential opportunities.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;To explore space in a sustainable way&amp;rdquo;&lt;/em&gt; - this motto drives my commitment to advancing space technology for the benefit of all humanity.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

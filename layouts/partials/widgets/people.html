@@ -1,0 +1,75 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<style>
+/* Compact grid: 2 per row on phones, 3 on sm, 4 on md, 5 on lg+ */
+.people-grid { display: flex; flex-wrap: wrap; margin-left: -0.5rem; margin-right: -0.5rem; }
+.people-col { padding: 0.5rem; box-sizing: border-box; flex: 0 0 50%; max-width: 50%; }
+@media (min-width: 576px) { .people-col { flex: 0 0 33.3333%; max-width: 33.3333%; } }
+@media (min-width: 768px) { .people-col { flex: 0 0 25%; max-width: 25%; } }
+@media (min-width: 992px) { .people-col { flex: 0 0 20%; max-width: 20%; } }
+</style>
+
+<div class="people-widget">
+  {{ with $page.Title }}
+  <div class="section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="mb-3">
+    <p>{{ . }}</p>
+  </div>
+  {{ end }}
+
+  {{ $groups := $page.Params.user_groups }}
+  {{ $authors := where site.Pages "Section" "authors" }}
+  {{ $people := where $authors ".Params.user_groups" "intersect" $groups }}
+  {{/* Build sortable list with role weight: PhD=0, MPhil=1, others=2 */}}
+  {{ $list := slice }}
+  {{ range $people }}
+    {{ $role := lower (default "" .Params.role) }}
+    {{ $w := 2 }}
+    {{ if in $role "phd" }}
+      {{ $w = 0 }}
+    {{ else if in $role "mphil" }}
+      {{ $w = 1 }}
+    {{ end }}
+    {{ $list = $list | append (dict "w" $w "name" .Params.name "p" .) }}
+  {{ end }}
+  {{ $list = sort $list "w" "asc" "name" "asc" }}
+
+  <div class="people-grid">
+    {{ range $list }}
+      {{ $p := .p }}
+      {{ $avatar := ($p.Resources.ByType "image").GetMatch "*avatar*" }}
+      {{ $link := "" }}
+      {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split $p.Path).Dir)) }}
+        {{ $link = .RelPermalink }}
+      {{ end }}
+
+      <div class="people-col d-flex">
+        <div class="w-100 text-center">
+          {{ $src := "" }}
+          {{ if site.Params.gravatar }}
+            {{ $src = printf "https://s.gravatar.com/avatar/%s?s=200" (md5 $p.Params.email) }}
+          {{ else if $avatar }}
+            {{ $avatar_image := $avatar.Fill "150x150 Center" }}
+            {{ $src = $avatar_image.RelPermalink }}
+          {{ end }}
+          {{ if $src }}
+            {{with $link}}<a href="{{.}}">{{end}}<img class="portrait mb-2" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
+          {{ end }}
+
+          <div class="portrait-title">
+            <h2 class="h5 mb-1">{{with $link}}<a href="{{.}}">{{end}}{{ $p.Params.name }}{{if $link}}</a>{{end}}</h2>
+            {{ with $p.Params.role }}<h3 class="h6 text-muted mb-1">{{ . | markdownify | emojify }}</h3>{{ end }}
+            {{ with $p.Params.interests }}<p class="people-interests small mb-0">{{ delimit . ", " | markdownify | emojify }}</p>{{ end }}
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>

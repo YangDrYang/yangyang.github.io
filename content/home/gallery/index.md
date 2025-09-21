@@ -7,8 +7,33 @@ weight = 120  # Order that this section will appear.
 
 title = "Gallery"
 subtitle = "Photos with my students"
+
+[[gallery_item]]
+album = "gallery"
+image = "user.jpg"
+caption = "Yang at UNSW"
+
+[[gallery_item]]
+album = "gallery"
+image = "user-2.jpg"
+caption = "LAB session"
+
+[[gallery_item]]
+album = "gallery"
+image = "user-full.jpg"
+caption = "Seminar talk"
+
+[[gallery_item]]
+album = "gallery"
+image = "user-full-2.jpg"
+caption = "Team meeting"
+
+[[gallery_item]]
+album = "gallery"
+image = "geo.jpg"
+caption = "Sydney skyline"
 +++
 
 Here are some photos with my colleagues and students. 
 
-{{< gallery >}}
+{{< gallery_slider album="gallery" interval="5000" >}}

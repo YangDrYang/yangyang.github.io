@@ -97,7 +97,7 @@ academia comes with **day (light) and night (dark) mode** built-in. Click the su
 
 Choose a stunning color and font theme for your site. Themes are fully customizable and include:
 
-{{< gallery >}}
+{{< gallery_slider album="gallery" interval="4000" height="360px" >}}
 
 ## Ecosystem
 

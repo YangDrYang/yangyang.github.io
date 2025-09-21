@@ -44,8 +44,8 @@ user_groups:
   - Researchers
 ---
 
-Dr Yang Yang is a lecturer and researcher in astrodynamics and space engineering at UNSW Sydney. His work advances space navigation, orbit determination, and situational awareness, with a mission to make space safer and more sustainable for all.
+I am a lecturer and researcher in astrodynamics and space engineering at UNSW Sydney. My work advances space navigation, orbit determination, and situational awareness, with a mission to make space safer and more sustainable for all.
 
-His research has made significant contributions to the field, including breakthrough work on advanced estimation for precise and robust orbit determination, published in leading aerospace journals. Dr Yang leads international collaborations and conducts workshops on space technology, including CubeSat development and positioning, navigation and timing (PNT) advancements.
+My research has made significant contributions to the field, including breakthrough work on advanced estimation for precise and robust orbit determination, published in leading aerospace journals. I am leading collaborations in space tracking for space domain awareness, and conducting workshops on space technology, including CubeSat development and positioning, navigation and timing advancements.
 
-With expertise spanning from theoretical astrodynamics to practical space applications, Dr Yang is committed to training the next generation of space engineers while pushing the boundaries of space navigation and space tracking technology.
+With expertise spanning from theoretical astrodynamics to practical space applications, I am committed to training the next generation of space engineers while pushing the boundaries of space navigation and space tracking technology.

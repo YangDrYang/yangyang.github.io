@@ -66,6 +66,7 @@
           <div class="portrait-title">
             <h2 class="h5 mb-1">{{with $link}}<a href="{{.}}">{{end}}{{ $p.Params.name }}{{if $link}}</a>{{end}}</h2>
             {{ with $p.Params.role }}<h3 class="h6 text-muted mb-1">{{ . | markdownify | emojify }}</h3>{{ end }}
+            {{ with $p.Params.bio }}<p class="people-bio small mb-1">{{ . | markdownify | emojify }}</p>{{ end }}
             {{ with $p.Params.interests }}<p class="people-interests small mb-0">{{ delimit . ", " | markdownify | emojify }}</p>{{ end }}
           </div>
         </div>

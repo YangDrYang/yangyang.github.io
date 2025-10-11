@@ -22,7 +22,7 @@ bio = "MPhil candidate developing reduced-order thermospheric density models for
 # List of user groups this user belongs to
 user_groups = ["HDR Students"]
 
-interest = "Orbit determination and navigation algorithms"
+interests = ["Orbit determination and navigation algorithms"]
 
 # Social/Academic Networking
 [[social]]

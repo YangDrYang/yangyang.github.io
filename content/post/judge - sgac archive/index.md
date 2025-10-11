@@ -1,6 +1,6 @@
 ---
 title: "Judge at ACHIEVE" # The title of your post (shown on the page and in lists)
-date: 2025-09-10 # The publication date of the post (used for ordering)
+date: 2025-09-28 # The publication date of the post (used for ordering)
 featured: true # Marks this post as "featured" (may affect theme display)
 image: # Settings for the featured image
   caption: "Group Photo" # Caption text for the featured image

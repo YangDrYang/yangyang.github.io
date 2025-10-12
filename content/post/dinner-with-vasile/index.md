@@ -12,4 +12,4 @@ summary: "Sharing ideas over dinner with Professor Massimiliano Vasile during IA
 
 I had a wonderful dinner with Professor Massimiliano Vasile and his group during the International Astronautical Congress in Sydney—an inspiring evening of space mission design ideas, orbital dynamics discussions, and future collaboration opportunities.
 
-![Dinner with Professor Massimiliano Vasile and his group](1759367322302.jpeg)
+![Dinner with Professor Massimiliano Vasile and his group](featured.jpg)

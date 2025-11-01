@@ -1,6 +1,6 @@
 ---
 title: "📺 Featured in News.com.au Interview on Space Debris Management"
-date: "2025-11-02T00:00:00Z"
+date: "2025-10-22T00:00:00Z"
 featured: true
 summary: "Dr Yang Yang was interviewed by Brielle Burns from News.com.au about space junk disposal and the underwater cemetery where decommissioned satellites go to die."
 tags: ["Media Interview", "Space Debris", "News.com.au"]

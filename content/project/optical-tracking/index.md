@@ -2,8 +2,8 @@
 title: Optical Tracking
 summary: Satellite tracking by optical telescopes on ground.
 tags:
-  - Optical tracking
-date: "2016-04-27T00:00:00Z"
+  - Space Tracking
+date: "2024-10-01T00:00:00Z"
 external_link:
 image:
   caption: Photo by UNSW School of Physics https://www.unsw-observatory.org

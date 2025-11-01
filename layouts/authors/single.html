@@ -1,0 +1,91 @@
+{{- define "main" -}}
+
+{{ if eq .Kind "page" }}
+{{/* Only apply custom layout to individual author pages, not taxonomy term pages */}}
+<div class="universal-wrapper pt-3">
+  <h1 itemprop="name">{{ .Title }}</h1>
+
+  {{ with .Params.role }}<h2 itemprop="jobTitle">{{ . }}</h2>{{ end }}
+
+  {{ with .Params.organizations }}
+  {{ range . }}
+  <h3 itemprop="worksFor">
+    {{ with .url }}<a href="{{ . }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+  </h3>
+  {{ end }}
+  {{ end }}
+
+  <div class="article-style" itemprop="description">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.interests }}
+  <div class="row">
+    <div class="col-md-5">
+      <h3>{{ i18n "interests" | markdownify }}</h3>
+      <ul class="ul-interests">
+        {{ range . }}
+        <li>{{ . | markdownify | emojify }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
+  {{ with .Params.education }}
+    <div class="col-md-7">
+      <h3>{{ i18n "education" | markdownify }}</h3>
+      <ul class="ul-edu fa-ul">
+        {{ range .courses }}
+        <li>
+          <i class="fa-li fas fa-graduation-cap"></i>
+          <div class="description">
+            <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+            <p class="institution">{{ .institution }}</p>
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  {{ end }}
+
+  {{ with .Params.social }}
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Connect</h3>
+      {{ range . }}
+      {{ $pack := or .icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      <a href="{{ .link }}" target="_blank" rel="noopener">
+        <i class="{{ $pack_prefix }} {{ $pack }} {{ .icon }} big-icon"></i>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+</div>
+
+{{ else }}
+{{/* For taxonomy term pages, use default behavior */}}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  
+  {{/* List items in this taxonomy */}}
+  {{ range .Pages }}
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+      {{ with .Params.role }}<h6 class="card-subtitle">{{ . }}</h6>{{ end }}
+      {{ with .Params.bio }}<p class="card-text">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+
+{{- end -}}

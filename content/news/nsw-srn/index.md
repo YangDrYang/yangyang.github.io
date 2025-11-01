@@ -1,5 +1,5 @@
 ---
-title: "Two Projects Awarded by NSW Space Research Network"
+title: "🎉 Two Projects Awarded by NSW Space Research Network 🏆"
 date: 2025-06-13
 featured: true
 summary: "Our team has secured a competitive Pilot Research grant and a student project grant from NSW Space Research Network to advance space technology in Space Domain Awareness."

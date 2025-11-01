@@ -1,5 +1,5 @@
 ---
-title: "HEPTA-Sat Training Workshop"
+title: "🛰️ HEPTA-Sat Training Workshop was successfully Held! 🛰️"
 date: 2025-10-04
 featured: true
 summary: "The one-day, hands-on HEPTA-Sat Training workshop has been successfully hold at UNSW Sydney"

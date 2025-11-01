@@ -5,6 +5,10 @@ name = "Ruoyan (Arthur) Zhao"
 # Username (this should match the folder name)
 authors = ["ruoyan_zhao"]
 
+# Force use of single template
+type = "authors"
+layout = "single"
+
 # Is this the primary user of the site?
 superuser = false
 
@@ -22,18 +26,16 @@ bio = "MPhil candidate developing reduced-order thermospheric density models for
 # List of user groups this user belongs to
 user_groups = ["HDR Students"]
 
-interests = ["Orbit determination and navigation algorithms"]
+# Weight for ordering within group (lower numbers appear first)
+weight = 10
+
+interests = ["Thermospheric density models, Reentry prediction"]
 
 # Social/Academic Networking
 [[social]]
   icon = "envelope"
   icon_pack = "fas"
   link = "mailto:ruoyan.zhao@unsw.edu.au"
-
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "ruoyan.zhao@unsw.edu.au"

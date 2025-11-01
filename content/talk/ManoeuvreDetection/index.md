@@ -8,12 +8,12 @@ abstract: "Transformers and Deep Learning for Satellite Manoeuvre Detection."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2024-11-21T09:00:00Z"
+date_end: "2024-11-21T17:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-07-01T00:00:00Z"
 
 authors: []
 tags: []

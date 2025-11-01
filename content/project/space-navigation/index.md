@@ -2,40 +2,30 @@
 title: Lunar Navigation Systems
 summary: Development of autonomous navigation architectures for lunar missions using multi-constellation GNSS and novel positioning algorithms.
 tags:
-  - Navigation
+  - Space Navigation
   - GNSS
   - Lunar Missions
   - Autonomous Systems
-date: "2023-04-27T00:00:00Z"
+date: "2024-12-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
   caption: Schematic of the lunar navigation satellite system architecture
-  focal_point: Smart
 
-links:
-  - icon: github
-    icon_pack: fab
-    name: Code Repository
-    url: https://github.com/YangDrYang
-  - icon: file-pdf
-    icon_pack: fas
-    name: Technical Report
-    url: ""
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 
-authors: [admin, "enbai_ji", "rameez_malik"]
+authors: [admin, "rameez_malik", "enbai_ji"]
 
 # Slides (optional).
 slides: ""
 ---
 
-## Overview
+<!-- ## Overview
 
 This project focuses on developing robust navigation systems for lunar missions, addressing the unique challenges of operating in the lunar environment where traditional Earth-based navigation systems are unavailable or unreliable.
 
@@ -78,4 +68,4 @@ This project involves international collaborations with research institutions in
 
 ## Current Status
 
-The project is actively developing prototype systems and conducting simulation studies to validate the proposed navigation architectures. Field testing with terrestrial analogs is planned for the next phase.
+The project is actively developing prototype systems and conducting simulation studies to validate the proposed navigation architectures. Field testing with terrestrial analogs is planned for the next phase. -->

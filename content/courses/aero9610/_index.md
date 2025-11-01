@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: UNSW AERO9500 Course
-summary: UNSW AERO9500 Course.
+linktitle: UNSW AERO9610 Course
+summary: UNSW AERO9610 Course.
 weight: 1
 
 # Page metadata.
-title: Satellite System Architecture and Orbits
+title: The Space Segment
 date: "2025-07-27T00:00:00Z"
 lastmod: "2018-07-27T00:00:00Z"
 draft: true # Is this a draft? true/false
@@ -21,7 +21,7 @@ menu:
     weight: 2
 ---
 
-## Flexibility
+<!-- ## Flexibility
 
 This feature can be used for publishing content such as:
 
@@ -59,4 +59,4 @@ Or, if you are creating a software documentation site, you can rename the `cours
 
 ## Update the docs menu
 
-If you use the _docs_ layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+If you use the _docs_ layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`. -->

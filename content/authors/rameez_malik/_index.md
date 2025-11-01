@@ -4,7 +4,7 @@ name: "Rameez A. Malik"
 
 # Username (this should match the folder name)
 authors:
-  - "rameez-malik"
+  - "rameez_malik"
 
 # Force use of single template
 type: "authors"

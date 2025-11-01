@@ -1,7 +1,7 @@
 ---
 title: "Lunar Navigation System Optimization for Targeted Coverage with Semi-Analytical Station Keeping Model and Earth-GPS Integration"
 authors:
-  - "rameez-malik"
+  - "rameez_malik"
   - admin
 date: "2025-10-30T00:00:00Z"
 doi: "10.1016/j.actaastro.2025.10.065"
@@ -24,6 +24,4 @@ featured: false
 links:
   - name: DOI
     url: https://doi.org/10.1016/j.actaastro.2025.10.065
-  - name: ScienceDirect
-    url: https://www.sciencedirect.com/science/article/pii/S0094576525007465
 ---

@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 draft = false # false it if you want a featured section
 
-title = "🌟 Latest Achievements"
+title = "🌟 Latest News"
 subtitle = "Celebrating our recent milestones and recognitions"
 
 [content]

@@ -1,0 +1,6 @@
+/* Make featured image on talk pages 800px wide */
+.talk .featured-image img {
+  width: 800px !important;
+  max-width: 100%;
+  height: auto !important;
+}

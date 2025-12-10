@@ -21,11 +21,11 @@ Optical tracking is a powerful technique for monitoring satellites and space deb
 
 ## Gallery
 
-![Telescope Setup](/img/project/optical-telescope-setup.jpg)
+![Telescope Setup](/img/project/optical-telescope-setup.png)
 *Our ground-based optical telescope at UNSW.*
 
-![Tracking Results](/img/project/tracking-results.jpg)
-*Sample tracking results of a low-Earth orbit satellite.*
+<!-- ![Tracking Results](/img/project/tracking-results.jpg)
+*Sample tracking results of a low-Earth orbit satellite.* -->
 
 ## Observatory Automation and Remote Control
 
@@ -33,6 +33,6 @@ UG Tejas Margapuram has done a great job automating the UNSW Observatory for his
 
 [Observatory Automation and Remote Control (PDF)](/slides/Observatory%20Automation%20and%20Remote%20Control.pdf)
 
-## More Information
+<!-- ## More Information
 
-For more details, visit the [UNSW Observatory](https://www.unsw-observatory.org).
+For more details, visit the [UNSW Observatory](https://www.unsw-observatory.org). -->

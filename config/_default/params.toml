@@ -38,6 +38,7 @@ highlight = true
 math = false
 
 # Privacy pack
+custom_css = ["css/custom.css"]
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
 privacy_pack = false

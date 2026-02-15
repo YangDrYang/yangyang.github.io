@@ -32,7 +32,7 @@
       <div class="media-body">
 
         <h3 class="article-title mb-0 mt-0" itemprop="name">
-          {{ $item.Title }}
+          <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
         </h3>
 
         {{ with $summary }}
@@ -73,6 +73,11 @@
 
         {{ if $show_buttons }}
         <div class="btn-links">
+          {{ if eq $item.Type "talk" }}
+          <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ $item.RelPermalink }}">
+            Details
+          </a>
+          {{ end }}
           {{ partial "page_links" (dict "page" $item "is_list" 1) }}
         </div>
         {{ end }}
@@ -81,8 +86,14 @@
       <div class="ml-3">
         {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
         {{ with $resource }}
-        {{ $image := .Resize "250x" }}
-        <img src="{{ $image.RelPermalink }}" itemprop="image">
+        {{ $image_size := "250x" }}
+        {{ if eq $item.Type "talk" }}
+        {{ $image_size = "420x" }}
+        {{ end }}
+        {{ $image := .Resize $image_size }}
+        <a href="{{ $item.RelPermalink }}" itemprop="url">
+          <img src="{{ $image.RelPermalink }}" itemprop="image"{{ if eq $item.Type "talk" }} class="talk-thumb"{{ end }}>
+        </a>
         {{end}}
       </div>
     </div>

@@ -1,5 +1,5 @@
 ---
-title: "Exciting News: Appointed Associate Editor for IEEE TAES (Space Systems)"
+title: "🎉 Exciting News: Appointed Associate Editor for IEEE TAES (Space Systems)"
 date: 2026-05-01
 featured: true
 summary: "I have been appointed Associate Editor for IEEE Transactions on Aerospace and Electronic Systems (Space Systems), starting in May 2026."

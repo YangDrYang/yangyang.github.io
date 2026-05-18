@@ -4,16 +4,18 @@
 {{- if ge $limit 1 -}}
   {{- $pages = $pages | first $limit -}}
 {{- end -}}
+{{- $editorEmail := or site.Params.author_email site.Params.email -}}
+{{- $editorName := or site.Params.author_name site.Title -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if eq  .Title  site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ site.Title }}</description>
-    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>{{ with site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with site.Author.email }}
-    <managingEditor>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with site.Author.email }}
-    <webMaster>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Copyright }}
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>{{ with site.Language.Locale }}
+    <language>{{.}}</language>{{end}}{{ with $editorEmail }}
+    <managingEditor>{{.}}{{ with $editorName }} ({{.}}){{end}}</managingEditor>
+    <webMaster>{{.}}{{ with $editorName }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Copyright }}
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{ with .OutputFormats.Get "RSS" }}
@@ -24,7 +26,7 @@
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with site.Author.email }}<author>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</author>{{end}}
+      {{ with $editorEmail }}<author>{{.}}{{ with $editorName }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
     </item>

@@ -25,6 +25,11 @@ copyright = "Copyright &copy; {year} Dr Yang Yang"
 # Name of Academia theme folder in `themes/`.
 theme = "academia-hugo"
 
+# Author information for RSS feed
+[author]
+name = "Dr Yang Yang"
+email = ""
+
 # Get last modified date for content from Git?
 enableGitInfo = false
 

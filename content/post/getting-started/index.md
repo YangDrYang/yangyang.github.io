@@ -24,7 +24,7 @@ image:
 projects: []
 ---
 
-Welcome to my academic website! I'm **Dr Yang Yang**, a Lecturer in Space Engineering at UNSW Sydney, specialising in astrodynamics, space navigation, and space situational awareness.
+Welcome to my academic website! I'm **Dr Yang Yang**, a Senior Lecturer in Space Engineering at UNSW Sydney, specialising in astrodynamics, space navigation, and space situational awareness.
 
 ## My Research Focus
 

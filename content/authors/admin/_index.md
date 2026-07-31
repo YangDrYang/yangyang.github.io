@@ -3,7 +3,7 @@ name: Yang Yang
 authors:
   - admin
 superuser: true
-role: Lecturer in Space Engineering
+role: Senior Lecturer in Space Engineering
 organizations:
   - name: School of Mechanical and Manufacturing Engineering, UNSW Sydney
     url: "https://www.unsw.edu.au/staff/yang-yang"

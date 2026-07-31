@@ -43,7 +43,7 @@ hero_media = "user-2.jpg"
 
 +++
 
-## I am **Dr Yang Yang** and I'm a **Lecturer in Space Engineering** specialising in **Astrodynamics, Space Navigation and Space Situational Awareness.**
+## I am **Dr Yang Yang** and I'm a **Senior Lecturer in Space Engineering** specialising in **Astrodynamics, Space Navigation and Space Situational Awareness.**
 
 Advancing space technology to explore the cosmos sustainably and safely.
 

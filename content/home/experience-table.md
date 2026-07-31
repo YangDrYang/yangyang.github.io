@@ -9,7 +9,8 @@ subtitle = ""
 
 | Title                | Institution                        | Location           | Dates              |
 |----------------------|------------------------------------|--------------------|--------------------|
-| Lecturer (Continuing)             | [UNSW Sydney](https://www.unsw.edu.au) | Sydney, Australia  | 2022–present       |
+| Senior Lecturer      | [UNSW Sydney](https://www.unsw.edu.au) | Sydney, Australia  | 2026–Present       |
+| Lecturer             | [UNSW Sydney](https://www.unsw.edu.au) | Sydney, Australia  | 2022–2026       |
 | Research Fellow      | [The University of Adelaide](https://www.adelaide.edu.au) | Adelaide, Australia | 2022               |
 | Assistant Professor  | [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/) | Guangzhou, China   | 2020–2021          |
 | Postdoctoral Research| [RMIT University](https://www.rmit.edu.au/research/centres-collaborations/space-research-centre) | Melbourne, Australia | 2015–2019          |

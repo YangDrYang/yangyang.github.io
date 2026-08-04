@@ -8,14 +8,14 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Recent Posts"
-subtitle = "ACADEMIC IS FULL OF FUN"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 6
+  count = 3
   
   # Choose how many pages you would like to offset by
   offset = 0

@@ -10,14 +10,14 @@ weight = 30  # Order that this section will appear.
 draft = false # false it if you want a featured section
 
 title = "🌟 Latest News"
-subtitle = "Celebrating our recent milestones and recognitions"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "news"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 0
+  count = 3
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"

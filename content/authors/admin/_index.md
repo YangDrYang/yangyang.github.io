@@ -44,10 +44,6 @@ user_groups:
   - Researchers
 ---
 
-I am a Senior Lecturer and researcher in astrodynamics and space engineering at UNSW Sydney. My work advances space navigation, orbit determination, and situational awareness, with a mission to make space safer and more sustainable for all.
+I am a Senior Lecturer in Space Engineering at UNSW Sydney. My research advances astrodynamics, space navigation, orbit determination, and space situational awareness to support safer, more sustainable space operations.
 
-My research has made significant contributions to the field, including breakthrough work on advanced estimation for precise and robust orbit determination, published in leading aerospace journals. I am leading collaborations in space tracking for space domain awareness, and conducting workshops on space technology, including CubeSat development and positioning, navigation and timing advancements.
-
-With expertise spanning from theoretical astrodynamics to practical space applications, I am committed to training the next generation of space engineers while pushing the boundaries of space navigation and space tracking technology.
-
-I am also leading our AUStronauts Vertically Integrated Project team to develop a 3U CubeSat with an electrodynamic tether for space weather applications. 
+I develop estimation and tracking methods for space systems, lead collaborations in space domain awareness, and educate the next generation of space engineers. I also lead the AUStronauts Vertically Integrated Project team developing a 3U CubeSat with an electrodynamic tether for space-weather applications.

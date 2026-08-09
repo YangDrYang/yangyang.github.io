@@ -1,7 +1,7 @@
 ---
 title: "Supervised Classification of LEO Debris Families Using Multi-Set Proper Elements"
 date: "2025-12-10"
-authors: ["Michael Ling", "Yang Yang", "et al."]
+authors: ["Michael Ling", "admin"]
 tags: [preprint, arxiv, undergraduate]
 featured: true
 links:
@@ -14,7 +14,7 @@ summary: "A new preprint led by undergraduate student Michael Ling is now availa
 We are excited to announce a new preprint led by our undergraduate student Michael Ling:
 
 **Title:** See arXiv link for details
-**Authors:** Michael Ling, Yang Yang, et al.
+**Authors:** Michael Ling and Yang Yang
 **arXiv:** [https://arxiv.org/abs/2512.08495](https://arxiv.org/abs/2512.08495)
 
 **Abstract:**

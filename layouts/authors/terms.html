@@ -1,0 +1,56 @@
+{{/* Grouped people directory. */}}
+
+{{- define "main" -}}
+
+<div class="universal-wrapper pt-3">
+  <h1 itemprop="name">People</h1>
+</div>
+
+<div class="universal-wrapper people-directory pb-5">
+  <style>
+    .people-directory-group { margin-top: 2.5rem; }
+    .people-directory-grid { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 2rem; }
+    .people-directory-card { text-align: center; }
+    .people-directory-card .portrait { margin-bottom: 0.75rem; }
+    .people-directory-card h3 { margin-bottom: 0.25rem; }
+    .people-directory-card .people-role { color: #6c757d; margin-bottom: 0.5rem; }
+    .people-directory-card .people-bio { margin-bottom: 0; }
+    @media (min-width: 576px) { .people-directory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (min-width: 992px) { .people-directory-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  </style>
+
+  {{ $authors := where site.Pages "Section" "authors" }}
+  {{ $groups := slice
+    (dict "title" "HDR Students" "key" "HDR Students")
+    (dict "title" "Researchers" "key" "Research Staff")
+    (dict "title" "Alumni" "key" "Alumni")
+  }}
+
+  {{ range $groups }}
+    {{ $people := where $authors ".Params.user_groups" "intersect" (slice .key) }}
+    {{ if $people }}
+      <section class="people-directory-group">
+        <h2>{{ .title }}</h2>
+        <div class="people-directory-grid">
+          {{ range sort $people ".Params.weight" "asc" }}
+            {{ $name := .Params.name }}
+            {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+            <article class="people-directory-card">
+              <a href="{{ .RelPermalink }}">
+                {{ with $avatar }}
+                  {{ $avatarImage := .Fill "180x180 Center" }}
+                  <img class="portrait" src="{{ $avatarImage.RelPermalink }}" alt="Portrait of {{ $name }}">
+                {{ end }}
+                <h3>{{ .Params.name }}</h3>
+              </a>
+              {{ with .Params.role }}<p class="people-role">{{ . | markdownify | emojify }}</p>{{ end }}
+              {{ with .Params.bio }}<p class="people-bio">{{ . | markdownify | emojify }}</p>{{ end }}
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+</div>
+
+{{- end -}}

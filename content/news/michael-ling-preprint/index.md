@@ -1,7 +1,7 @@
 ---
 title: "Supervised Classification of LEO Debris Families Using Multi-Set Proper Elements"
 date: "2025-12-10"
-authors: ["Michael Ling", "admin"]
+authors: ["michael_ling", "admin"]
 tags: [preprint, arxiv, undergraduate]
 featured: true
 links:

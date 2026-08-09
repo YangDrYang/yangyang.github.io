@@ -27,12 +27,14 @@
   {{ $groups := $page.Params.user_groups }}
   {{ $authors := where site.Pages "Section" "authors" }}
   {{ $people := where $authors ".Params.user_groups" "intersect" $groups }}
-  {{/* Build sortable list with role weight: PhD=0, MPhil=1, others=2 */}}
+  {{/* Build sortable list with role weight: PhD=0, MPhil=1, others=2, alumni=3 */}}
   {{ $list := slice }}
   {{ range $people }}
     {{ $role := lower (default "" .Params.role) }}
     {{ $w := 2 }}
-    {{ if in $role "phd" }}
+    {{ if in .Params.user_groups "Alumni" }}
+      {{ $w = 3 }}
+    {{ else if in $role "phd" }}
       {{ $w = 0 }}
     {{ else if in $role "mphil" }}
       {{ $w = 1 }}

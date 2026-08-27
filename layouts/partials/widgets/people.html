@@ -5,6 +5,7 @@
 /* Compact grid: 2 per row on phones, 3 on sm, 4 on md, 5 on lg+ */
 .people-grid { display: flex; flex-wrap: wrap; margin-left: -0.5rem; margin-right: -0.5rem; }
 .people-col { padding: 0.5rem; box-sizing: border-box; flex: 0 0 50%; max-width: 50%; }
+.people-widget .portrait { width: 80%; max-width: 150px; height: auto; object-fit: contain; background: transparent; border-radius: 0; }
 @media (min-width: 576px) { .people-col { flex: 0 0 33.3333%; max-width: 33.3333%; } }
 @media (min-width: 768px) { .people-col { flex: 0 0 25%; max-width: 25%; } }
 @media (min-width: 992px) { .people-col { flex: 0 0 20%; max-width: 20%; } }
@@ -58,8 +59,7 @@
           {{ if site.Params.gravatar }}
             {{ $src = printf "https://s.gravatar.com/avatar/%s?s=200" (md5 $p.Params.email) }}
           {{ else if $avatar }}
-            {{ $avatar_image := $avatar.Fill "150x150 Center" }}
-            {{ $src = $avatar_image.RelPermalink }}
+            {{ $src = $avatar.RelPermalink }}
           {{ end }}
           {{ if $src }}
             {{with $link}}<a href="{{.}}">{{end}}<img class="portrait mb-2" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}

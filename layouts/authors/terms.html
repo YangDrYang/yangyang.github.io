@@ -12,6 +12,7 @@
     .people-directory-grid { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 2rem; }
     .people-directory-card { text-align: center; }
     .people-directory-card .portrait { margin-bottom: 0.75rem; }
+    .people-directory-card .portrait { width: 180px; max-width: 100%; height: auto; object-fit: contain; border-radius: 0; }
     .people-directory-card h3 { margin-bottom: 0.25rem; }
     .people-directory-card .people-role { color: #6c757d; margin-bottom: 0.5rem; }
     .people-directory-card .people-bio { margin-bottom: 0; }
@@ -38,8 +39,7 @@
             <article class="people-directory-card">
               <a href="{{ .RelPermalink }}">
                 {{ with $avatar }}
-                  {{ $avatarImage := .Fill "180x180 Center" }}
-                  <img class="portrait" src="{{ $avatarImage.RelPermalink }}" alt="Portrait of {{ $name }}">
+                  <img class="portrait" src="{{ .RelPermalink }}" alt="Portrait of {{ $name }}">
                 {{ end }}
                 <h3>{{ .Params.name }}</h3>
               </a>

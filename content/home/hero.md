@@ -4,6 +4,11 @@ widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = false  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
+# Merged into the About section, which now opens the homepage: the proposition below is the
+# lead line of the bio in content/authors/admin/_index.md, and the call-to-action buttons are
+# rendered there with the `button` shortcode. Kept for reference; delete when no longer needed.
+# Note: the navbar's "Home" link points at `#about`, so re-activating this also means
+# repointing that link in config/_default/menus.toml.
 
 title = "Dr Yang Yang"
 
@@ -11,40 +16,23 @@ title = "Dr Yang Yang"
 hero_media = "user-2.jpg"
 
 [design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
   # Background color.
   color = "#fff"
-  
-  # Background gradient.
-  # gradient_start = "#4bb4e3"
-  # gradient_end = "#000"
-  
-  # Background image.
-  # image = ""  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = false
 
-# Call to action links (optional).
-#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
-#   Remove a link/note by deleting a cta/note block.
+# Call to action links.
 [btn]
-  url = "authors/admin/"
-  label = "Know more"
-  
+  url = "partner/"
+  label = "Partner with us"
+
 [btn_alt]
-  url = "#contact"
-  label = "Contact me"
+  url = "#projects"
+  label = "See the work"
 
 +++
 
-## I am **Dr Yang Yang** and I'm a **Senior Lecturer in Space Engineering** specialising in **Astrodynamics, Space Navigation and Space Situational Awareness.**
+## We turn sparse and noisy space-tracking data into **reliable navigation and operational intelligence** for safer satellite and cislunar missions.
 
-Advancing space technology to explore the cosmos sustainably and safely.
-
-[**View My Research**](#projects) · [**Download CV**](files/DrYangYang.pdf) · [**Contact Me**](#contact)
+Optical tracking, orbit determination, satellite manoeuvre detection and cislunar positioning — developed at UNSW Sydney with ARC and NSW Space Research Network funding, and available to your team through three bounded pilots.

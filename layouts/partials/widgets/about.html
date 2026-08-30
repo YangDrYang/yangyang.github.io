@@ -18,14 +18,30 @@
 <!-- About widget (overridden) -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
   itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
-  <div class="col-lg-5">
+  {{/* order-lg-* puts the text column on the left and the photo on the right from the `lg`
+     breakpoint up, so the bio and its buttons line up with the full-width sections below.
+     Below `lg` the columns stack in DOM order, keeping the photo above the text. */}}
+  <div class="col-lg-5 order-lg-2">
     <div id="profile">
       {{ if site.Params.gravatar }}
       <img class="portrait img-fluid" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')"
         itemprop="image" alt="Avatar">
       {{ else }}
+      {{/* On the homepage `.page` is content/home/about.md, which sets `avatar_image`.
+           On an author profile page it is the author page, which does not — that rendered
+           `src="img/%!s(<nil>)"` and a broken image. Fall back to the homepage's avatar,
+           and render nothing at all if neither is set. */}}
       {{ $avatar_image := .page.Params.avatar_image }}
-      <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
+      {{ if not $avatar_image }}
+        {{ with site.GetPage "/home" }}
+          {{ with .Resources.GetMatch "about.md" }}
+            {{ $avatar_image = .Params.avatar_image }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ with $avatar_image }}
+      <img class="img-fluid" src="{{ printf "img/%s" . | relURL }}" itemprop="image" alt="Avatar">
+      {{ end }}
       {{ end }}
     </div>
     <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
@@ -51,7 +67,7 @@
       {{ end }}
     </ul>
   </div>
-  <div class="col-lg-7" itemprop="description">
+  <div class="col-lg-7 order-lg-1" itemprop="description">
     <style>
       /* Center tables within About content */
       .col-lg-7[itemprop="description"] table { margin-left: auto; margin-right: auto; }
@@ -117,7 +133,11 @@
   </div>
 </div>
 
-{{/* Centered Experience table below About */}}
+{{/* Centered Experience table below About.
+     Off by default. Note that `active` in content/home/experience-table.md has no effect
+     here — that file is read directly by this template, not rendered as its own section —
+     so the switch is `show_experience_table` in content/home/about.md. */}}
+{{ if $page.Params.show_experience_table }}
 <div class="row">
   <div class="col-12 d-flex justify-content-center">
     <div class="about-exp text-center" style="max-width: 980px; width: 100%;">
@@ -147,3 +167,4 @@
     </div>
   </div>
 </div>
+{{ end }}

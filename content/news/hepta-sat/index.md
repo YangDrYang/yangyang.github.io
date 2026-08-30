@@ -1,8 +1,8 @@
 ---
-title: "🛰️ HEPTA-Sat Training Workshop was successfully Held! 🛰️"
+title: "🛰️ HEPTA-Sat Training Workshop successfully held 🛰️"
 date: 2025-10-04
 featured: true
-summary: "The one-day, hands-on HEPTA-Sat Training workshop has been successfully hold at UNSW Sydney"
+summary: "The one-day, hands-on HEPTA-Sat Training workshop was successfully held at UNSW Sydney"
 tags: ["UNISEC", "UNOOSA", "HEPTA-Sat", "UNSW Sydney"]
 draft: false
 ---

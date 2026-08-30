@@ -39,7 +39,12 @@
             <article class="people-directory-card">
               <a href="{{ .RelPermalink }}">
                 {{ with $avatar }}
-                  <img class="portrait" src="{{ .RelPermalink }}" alt="Portrait of {{ $name }}">
+                  {{/* Fit, not Fill: never crop a person's photo. The box is ~2x the 180px
+                       display size, so a large source is not shipped at full resolution just to
+                       be scaled down in the browser. Presentation is handled by the
+                       .people-directory-card .portrait rule above. */}}
+                  {{ $avatarImage := .Fit "360x360" }}
+                  <img class="portrait" src="{{ $avatarImage.RelPermalink }}" alt="Portrait of {{ $name }}">
                 {{ end }}
                 <h3>{{ .Params.name }}</h3>
               </a>

@@ -1,0 +1,26 @@
+{{/* Site-specific additions to <head>. Included by the theme's site_head.html, after the
+     main stylesheet, so these rules win over the theme's at equal specificity.
+
+     Note: `static/css/custom.css` is NOT loaded by this theme — the `custom_css` param in
+     params.toml has no effect here, and the theme only bundles files listed in `plugins_css`
+     from `assets/css/`. Put site CSS here, or move it to `assets/css/` and list it in
+     `plugins_css`. */}}
+<style>
+  /* Profile photos are shown in full, never cropped.
+     The theme's `.portrait` rule pins a square height and uses `object-fit: cover`, which
+     crops a portrait photo even when Hugo has not; `border-radius: 50%` assumes a square
+     too. Square corners here match the per-widget rules in widgets/people.html and
+     authors/terms.html. */
+  .portrait {
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
+  }
+
+  .author-card .portrait {
+    width: 60px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0;
+  }
+</style>

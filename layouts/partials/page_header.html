@@ -19,12 +19,17 @@
 
 {{/* Featured image */}}
 {{ if and $featured (not .Params.image.preview_only) }}
-{{/* Use Fit instead of Fill to preserve aspect ratio */}}
-{{ $image := $featured.Fit "680x500 q90" }}
+{{/* Use Fit instead of Fill to preserve aspect ratio.
+     The box is ~2x the intended display size so the image stays sharp on HiDPI screens:
+     it is displayed bounded to 500px tall, not at its natural pixel size. */}}
+{{ $image := $featured.Fit "1360x1000 q90" }}
 <div class="container split-header">
   <div class="row justify-content-center">
     <div class="col-lg-8">
-        <img class="img-fluid w-100" src="{{ $image.RelPermalink }}" itemprop="image" alt="" style="object-fit: contain;">
+        {{/* No `w-100`: forcing width:100% upscaled a portrait image to the column width and
+             blurred it. Bound the height instead and let the width follow the aspect ratio. */}}
+        <img class="img-fluid mx-auto" src="{{ $image.RelPermalink }}" itemprop="image" alt=""
+             style="max-height: 500px; width: auto; object-fit: contain;">
         {{ with $.Params.image.caption }}<span
           class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
     </div>

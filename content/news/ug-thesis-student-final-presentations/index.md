@@ -2,12 +2,15 @@
 title: "UG Thesis Students Completed Final Presentations"
 date: 2026-04-25
 featured: true
-summary: "Four undergraduate thesis students completed their final presentations on 25 April after one year of project work under my supervision."
+summary: "Undergraduate thesis students completed their final presentations on 25 April after one year of project work under my supervision."
+# TODO: this page previously said "Four" students but listed three. The count has been
+# removed rather than guessed — add the fourth student's name and project, or restore
+# an explicit count of three.
 tags: ["UG Thesis", "Student Projects", "Presentation"]
 draft: false
 ---
 
-Four undergraduate thesis students successfully completed their final thesis presentations on 25 April, marking the conclusion of a one-year project journey under my supervision.
+Undergraduate thesis students successfully completed their final thesis presentations on 25 April, marking the conclusion of a one-year project journey under my supervision.
 
 Over the past year, each student demonstrated strong commitment, technical growth, and professionalism throughout their project work. The final presentation session highlighted the quality of their outcomes and their ability to communicate research and engineering ideas clearly.
 

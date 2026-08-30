@@ -6,11 +6,11 @@
 widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 35  # Order that this section will appear.
 draft = false # false it if you want a featured section
 
-title = "🌟 Latest News"
-subtitle = ""
+title = "Recent news"
+subtitle = "Grants, appointments and results. Workshops, visits and talks are in the [activity archive](/post/)."
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

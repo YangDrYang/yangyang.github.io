@@ -1,0 +1,25 @@
+{{/*
+  Button shortcode.
+
+  Renders a themed call-to-action button. Shortcode output bypasses Goldmark's
+  raw-HTML filter, so this works without enabling `markup.goldmark.renderer.unsafe`
+  (which would also emit editorial HTML comments into the published page source).
+
+  Usage:
+    {{< button url="/partner/" label="See what each pilot involves" >}}
+    {{< button url="/partner/" label="Partner with us" style="outline" >}}
+*/}}
+{{ $url := .Get "url" }}
+{{ $label := .Get "label" | default "Learn more" }}
+{{ $style := .Get "style" | default "primary" }}
+{{ $class := cond (eq $style "outline") "btn-outline-primary" "btn-primary" }}
+{{ $target := "" }}
+{{ $scheme := (urls.Parse $url).Scheme }}
+{{ if in (slice "http" "https") $scheme }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ else }}
+  {{ $url = $url | relLangURL }}
+{{ end }}
+{{/* `page-scroll` gives smooth scrolling for same-page anchors; the theme's handler ignores
+     it when the link points at a different path, so it is safe on cross-page links too. */}}
+<a href="{{ $url | safeURL }}" class="btn {{ $class }} btn-lg page-scroll" {{ $target | safeHTMLAttr }}>{{ $label }}</a>

@@ -1,0 +1,35 @@
+{{/*
+  Figure for an image that lives in the page's own folder (a page bundle resource).
+
+  Unlike the theme's `figure` shortcode, this runs the image through Hugo's image
+  processing, so the page serves a right-sized derivative instead of the multi-megabyte
+  original straight off a phone camera.
+
+  `Fit` scales the image to sit inside the box without cropping, so portrait and landscape
+  photos end up with similar visual weight on the page rather than a portrait shot running
+  away down the screen.
+
+  Note: Hugo does not apply EXIF orientation when processing images. A photo that looks
+  upright in a viewer but sideways on the site has an orientation tag that needs baking
+  into the pixels first (`convert in.jpg -auto-orient out.jpg`).
+
+  Usage:
+    {{< img src="fav1.jpg" caption="What the photo shows." >}}
+    {{< img src="fav2.png" box="1100x620" caption="…" >}}
+*/}}
+{{ $src := .Get "src" }}
+{{ $box := .Get "box" | default "1000x700" }}
+{{ $caption := .Get "caption" }}
+{{/* Strip markdown from the caption before reusing it as alt text, so emphasis marks
+     are not read out literally by screen readers. */}}
+{{ $alt := .Get "alt" | default ($caption | markdownify | plainify) }}
+{{ $res := .Page.Resources.GetMatch $src }}
+{{ if not $res }}
+  {{ errorf "img shortcode: no image named %q found in the page bundle for %s" $src .Page.Path }}
+{{ end }}
+{{ $img := $res.Fit (printf "%s q88 webp" $box) }}
+<figure>
+  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}"
+       alt="{{ $alt }}" loading="lazy">
+  {{ with $caption }}<figcaption><p>{{ . | markdownify | emojify }}</p></figcaption>{{ end }}
+</figure>

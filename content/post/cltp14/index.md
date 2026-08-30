@@ -10,4 +10,4 @@ draft: false # If true, the post is a draft and won't be published
 summary: "CubeSat Leader Training"
 ---
 
-During 19-29 August, 2025, Dr Yang Yang participated the CLTP14 CubeSat Training Program at Nihon Univeristy in Tokyo.
+During 19-29 August, 2025, Dr Yang Yang participated in the CLTP14 CubeSat Training Program at Nihon University in Tokyo.

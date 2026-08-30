@@ -1,5 +1,4 @@
 # Navigation Links
-# Updated navigation configuration.
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
@@ -10,53 +9,45 @@
   weight = 10
 
 [[main]]
-  name = "People"
-  url = "authors/"
-  weight = 15
-
-[[main]]
   name = "Projects"
   url = "#projects"
   weight = 20
 
 [[main]]
-  name = "Publications"
-  url = "publication/"
+  name = "Partner with us"
+  url = "partner/"
   weight = 30
 
 [[main]]
-  name = "Courses"
-  url = "courses/"
+  name = "Publications"
+  url = "publication/"
   weight = 40
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "People"
+  url = "authors/"
   weight = 50
+
+[[main]]
+  name = "News"
+  url = "news/"
+  weight = 60
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 70
 
-#[[main]]
-#  name = "Codes"
-#  url = "#people"
-#  hasChildren = true
-
-#[[main]]
-#  parent = "Codes"
-#  name = "dropdown 1"
-#  url = "#"
-
+# Courses is linked from the About section rather than the navbar, to keep the
+# navbar to seven items. Restore by uncommenting:
 # [[main]]
-#  parent = "Codes"
-#  name = "dropdown 2"
-#  url = "#!"
+#   name = "Teaching"
+#   url = "courses/"
+#   weight = 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
 #    name = "CV"
 #    url = "files/cv.pdf"
-#    weight = 70
+#    weight = 90

@@ -2,8 +2,10 @@
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 140  # Order that this section will appear.
+# Kept off the homepage: training certificates are not partner-facing evidence.
+# Professional standing (IEEE Senior Member, editorial roles) now lives in `impact.md`.
 
 title = "Accomplish&shy;ments"
 subtitle = ""
@@ -21,7 +23,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "UNSW Research Training/Nature Masterclasses"
   organization_url = "https://www.unsw.edu.au"
-  title = "Masterclass in Scientific Writing and Publishing Certificate of Achivement"
+  title = "Masterclass in Scientific Writing and Publishing Certificate of Achievement"
   url = ""
   certificate_url = "files/certificate-of-achievement-nature.pdf"
   date_start = "2025-07-25"

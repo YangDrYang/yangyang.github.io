@@ -4,8 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 71  # Order that this section will appear.
+# Kept off the homepage: the activity feed remains published at /post/ and is
+# linked from the subtitle of the `featured.md` news section.
 
 title = "Recent Posts"
 subtitle = ""

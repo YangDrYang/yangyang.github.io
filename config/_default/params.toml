@@ -15,7 +15,7 @@ day_night = true
 font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "We turn sparse and noisy space-tracking data into reliable navigation and operational intelligence for safer satellite and cislunar missions."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
@@ -56,23 +56,22 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "yang.yang16@unsw.edu.au"
 #phone = "888 888 88 88"
-address = "Room 208H, Ainsworth Building, UNSW Sydney, Kensington, NSW 2051, Australia"
+address = "Room 208H, Ainsworth Building, UNSW Sydney, Kensington, NSW 2052, Australia"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday 10:00 to 13:00<br>
-                  Wednesday 09:00 to 10:00"""
+# office_hours = """Monday 10:00 to 13:00<br>
+#                  Wednesday 09:00 to 10:00"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+# TODO: add a real booking link if appointments should be bookable online.
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "linkedin", icon_pack = "fab", name = "Connect on LinkedIn", link = "https://www.linkedin.com/in/yang-yang-space/"},
+  {icon = "google-scholar", icon_pack = "ai", name = "Publications on Google Scholar", link = "https://scholar.google.com.au/citations?user=0XZJ-c0AAAAJ&hl=en"},
+  {icon = "orcid", icon_pack = "ai", name = "ORCID", link = "https://orcid.org/0000-0002-4134-901X"},
   ]
 
 # Display a map.
@@ -91,7 +90,7 @@ contact_links = [
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
 map = 2
-map_api_key = "AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_api_key = ""  # Not needed while `map = 2` (OpenStreetMap).
 latitude = "-33.9173"
 longitude = "151.2313"
 zoom = 10

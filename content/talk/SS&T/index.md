@@ -1,7 +1,7 @@
 ---
-title: Optical-Based Space Surveillance & Tracking:Leveraging UNSW Observatory for Research and Education
+title: "Optical-Based Space Surveillance & Tracking: Leveraging UNSW Observatory for Research and Education"
 event: Australia Space Research Conference
-event_url: https://example.org
+event_url: ""
 location: Sydney, Australia
 summary: Introducing the UNSW Observatory for research and education.
 abstract: ""

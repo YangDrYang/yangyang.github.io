@@ -1,6 +1,6 @@
 ---
 title: Transformers and Deep Learning for Satellite Manoeuvre Detection
-event: academia Theme Conference
+event: UNSW AI Symposium 2024
 event_url: https://www.unsw.edu.au/unsw-ai/news-events/events/unsw-ai-symposium-2024
 location: Sydney, Australia
 summary: Transformers and Deep Learning for Satellite Manoeuvre Detection.

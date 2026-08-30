@@ -28,7 +28,10 @@ image:
   focal_point: ""
   preview_only: false
 
-url_slides: "/slides/Lunar_Sat_Orb_Det_Dr_YangY_05_02_2026_NotesAdded.pdf"
+# TODO: this pointed at /slides/Lunar_Sat_Orb_Det_Dr_YangY_05_02_2026_NotesAdded.pdf, which is not
+# in static/slides/ — the page was showing a "Slides" button that 404s. Add the PDF to
+# static/slides/ and uncomment, or delete this line.
+# url_slides: "/slides/Lunar_Sat_Orb_Det_Dr_YangY_05_02_2026_NotesAdded.pdf"
 url_code: ""
 url_pdf: ""
 url_video: ""

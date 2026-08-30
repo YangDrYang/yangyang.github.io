@@ -16,7 +16,6 @@ weight: 1
 interests:
   - "GEO Pattern of Life Characterisation"
   - "Space Domain Awareness"
-  - "Machine Learning"
   - "Satellite Manoeuvre Detection"
 ---
 

@@ -53,7 +53,7 @@
       {{ if and site.Params.email (not $page.Params.email_form) }}
       <li>
         <i class="fa-li fas fa-envelope mt-2" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email">
+        <span id="person-email" itemprop="email" style="display: block; text-align: justify;">
           {{- if $autolink }}<a
             href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>{{ else }}{{ site.Params.email }}{{ end -}}
         </span>
@@ -72,7 +72,7 @@
       {{ with site.Params.address }}
       <li>
         <i class="fa-li fas fa-map-marker-alt mt-2" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">{{ . | markdownify | emojify }}</span>
+        <span id="person-address" itemprop="address" style="display: block; text-align: justify;">{{ . | markdownify | emojify }}</span>
       </li>
       {{ end }}
 

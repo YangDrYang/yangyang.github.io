@@ -18,7 +18,7 @@ subtitle = "Funded programs, external responsibility, and results that are on th
 ### Funding
 
 - **ARC Discovery Project DP260100821 — Lunar navigation.** With Professor Andrew Dempster (UNSW ACSER,
-  lead chief investigator) and Professor Junichiro Kawaguchi. Develops single-satellite Doppler positioning, autonomous
+  lead chief investigator) and Professor Junichiro Kawaguchi (ANU). Develops single-satellite Doppler positioning, autonomous
   on-board positioning of lunar navigation satellites, and time synchronisation for lunar PNT, with
   outcomes targeted at Australia's robotic lunar mission.
   <!-- TODO: add the funded amount and project term. -->

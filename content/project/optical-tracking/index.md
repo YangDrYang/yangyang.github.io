@@ -43,6 +43,10 @@ We successfully tracked the International Space Station (ISS) during its pass ov
 
 ![Animation of the International Space Station tracked during a pass over Sydney, created by PhD student Asad Rizvi](ISS_pass.gif)
 
+The blink comparison below highlights the two isolated satellite dots near the bottom of the field: Himawari-9 on the left and Himawari-8 on the right. The satellites share the same geostationary orbital slot near 140.7°E, with a small east–west separation ([JMA orbit plan](https://www.data.jma.go.jp/mscweb/ja/info/plan.html)).
+
+![Blink comparison with circles and arrows marking the isolated dots near the bottom: Himawari-9 on the left and Himawari-8 on the right](himawari-9-and-8-annotated.gif)
+
 - **The UNSW Observatory now runs automated, remotely controlled satellite tracking.** The automation
   and control work was delivered as an undergraduate thesis project by Tejas Margapuram
   ([slides](/slides/Observatory_Automation_and_Remote_Control.pdf)).

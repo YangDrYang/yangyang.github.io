@@ -39,6 +39,10 @@ still to come.
 
 ## Demonstrated result
 
+We successfully tracked the International Space Station (ISS) during its pass over Sydney! A big thank you to my PhD student [**Asad Rizvi**](https://www.linkedin.com/in/asad-raza-rizvi/) for creating the ISS tracking animation below.
+
+![Animation of the International Space Station tracked during a pass over Sydney, created by PhD student Asad Rizvi](ISS_pass.gif)
+
 - **The UNSW Observatory now runs automated, remotely controlled satellite tracking.** The automation
   and control work was delivered as an undergraduate thesis project by Tejas Margapuram
   ([slides](/slides/Observatory_Automation_and_Remote_Control.pdf)).

@@ -19,4 +19,4 @@ interests:
   - "Optical Telescope Observations"
 ---
 
-Asad Rizvi is a PhD student in the School of Mechanical and Manufacturing Engineering at UNSW Sydney. His research focuses on satellite polarimetry using the UNSW telescope for space object characterisation.
+Asad Rizvi is a PhD student in the School of Mechanical and Manufacturing Engineering at UNSW Sydney. His research focuses on satellite photometry and polarimetry using the UNSW telescope for space object characterisation.

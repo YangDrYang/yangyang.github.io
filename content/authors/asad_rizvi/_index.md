@@ -14,6 +14,7 @@ user_groups:
   - "HDR Students"
 weight: 30
 interests:
+  - "Satellite Photometry"
   - "Satellite Polarimetry"
   - "Space Object Characterisation"
   - "Optical Telescope Observations"

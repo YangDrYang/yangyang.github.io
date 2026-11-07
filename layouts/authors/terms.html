@@ -10,6 +10,9 @@
   <style>
     .people-directory-group { margin-top: 2.5rem; }
     .people-directory-grid { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 2rem; }
+    .people-group-figure { margin: 0 auto 2rem; max-width: 900px; text-align: center; }
+    .people-group-photo { display: block; width: 100%; height: auto; }
+    .people-group-caption { margin-top: 0.5rem; color: #6c757d; font-size: 0.9rem; }
     .people-directory-card { text-align: center; }
     .people-directory-card .portrait { margin-bottom: 0.75rem; }
     .people-directory-card .portrait { width: 180px; max-width: 100%; height: auto; object-fit: contain; border-radius: 0; }
@@ -20,10 +23,16 @@
     @media (min-width: 992px) { .people-directory-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   </style>
 
+  <figure class="people-group-figure">
+    <img class="people-group-photo" src="/img/group-photo.jpg" alt="Group photo after the group research day on 21 October 2026">
+    <figcaption class="people-group-caption">Group photo after the group research presentations on 21 October 2026</figcaption>
+  </figure>
+
   {{ $authors := where site.Pages "Section" "authors" }}
   {{ $groups := slice
+    (dict "title" "Postdoc" "key" "Postdoc")
     (dict "title" "HDR Students" "key" "HDR Students")
-    (dict "title" "Researchers" "key" "Research Staff")
+    (dict "title" "Research Associate" "key" "Research Staff")
     (dict "title" "Alumni" "key" "Alumni")
   }}
 
@@ -33,11 +42,23 @@
       <section class="people-directory-group">
         <h2>{{ .title }}</h2>
         <div class="people-directory-grid">
-          {{ range sort $people ".Params.weight" "asc" }}
-            {{ $name := .Params.name }}
-            {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+          {{ $list := slice }}
+          {{ range $people }}
+            {{ $role := lower (default "" .Params.role) }}
+            {{ $roleWeight := 2 }}
+            {{ if in $role "phd" }}
+              {{ $roleWeight = 0 }}
+            {{ else if in $role "mphil" }}
+              {{ $roleWeight = 1 }}
+            {{ end }}
+            {{ $list = $list | append (dict "roleWeight" $roleWeight "weight" (default 0 .Params.weight) "name" .Params.name "page" .) }}
+          {{ end }}
+          {{ range sort $list "roleWeight" "asc" "weight" "asc" "name" "asc" }}
+            {{ $person := .page }}
+            {{ $name := $person.Params.name }}
+            {{ $avatar := ($person.Resources.ByType "image").GetMatch "*avatar*" }}
             <article class="people-directory-card">
-              <a href="{{ .RelPermalink }}">
+              <a href="{{ $person.RelPermalink }}">
                 {{ with $avatar }}
                   {{/* Fit, not Fill: never crop a person's photo. The box is ~2x the 180px
                        display size, so a large source is not shipped at full resolution just to
@@ -46,10 +67,10 @@
                   {{ $avatarImage := .Fit "360x360" }}
                   <img class="portrait" src="{{ $avatarImage.RelPermalink }}" alt="Portrait of {{ $name }}">
                 {{ end }}
-                <h3>{{ .Params.name }}</h3>
+                <h3>{{ $name }}</h3>
               </a>
-              {{ with .Params.role }}<p class="people-role">{{ . | markdownify | emojify }}</p>{{ end }}
-              {{ with .Params.bio }}<p class="people-bio">{{ . | markdownify | emojify }}</p>{{ end }}
+              {{ with $person.Params.role }}<p class="people-role">{{ . | markdownify | emojify }}</p>{{ end }}
+              {{ with $person.Params.bio }}<p class="people-bio">{{ . | markdownify | emojify }}</p>{{ end }}
             </article>
           {{ end }}
         </div>

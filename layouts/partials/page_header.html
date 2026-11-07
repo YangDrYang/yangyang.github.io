@@ -31,7 +31,7 @@
         <img class="img-fluid mx-auto" src="{{ $image.RelPermalink }}" itemprop="image" alt=""
              style="max-height: 500px; width: auto; object-fit: contain;">
         {{ with $.Params.image.caption }}<span
-          class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+          class="article-header-caption{{ if $page.Params.image.caption_below }} caption-below{{ end }}">{{ . | markdownify | emojify }}</span>{{ end }}
     </div>
     <div class="col-lg-8">
       <h1 itemprop="name">{{ $title }}</h1>

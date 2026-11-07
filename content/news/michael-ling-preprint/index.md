@@ -1,24 +1,38 @@
 ---
-title: "Supervised Classification of LEO Debris Families Using Multi-Set Proper Elements"
+title: "Michael Ling's Debris Family Classification Research Published in IEEE TAES"
 date: "2025-12-10"
 authors: ["michael_ling", "admin"]
-tags: [preprint, arxiv, undergraduate]
+tags: ["Publication", "IEEE TAES", "Space Situational Awareness"]
 featured: true
 links:
-  - url: "https://arxiv.org/abs/2512.08495"
+  - url: "https://doi.org/10.1109/TAES.2026.3737763"
     icon_pack: "fas"
     icon: "file-alt"
-summary: "A new preprint led by undergraduate student Michael Ling is now available on arXiv."
+summary: "Michael Ling and Yang Yang's debris-family classification research is now published in IEEE Transactions on Aerospace and Electronic Systems."
 ---
 
-We are excited to announce a new preprint led by our undergraduate student Michael Ling:
+**Publication update:** This work is now published in *IEEE Transactions on Aerospace and Electronic
+Systems*, with a publication date of 25 September 2026. The results below reflect the journal version.
 
-**Title:** Supervised Classification of LEO Debris Families Using Multi-Set Proper Elements
+**Title:** Supervised Classification of Synthetic LEO Debris Families Using Multiset Proper Elements Under Atmospheric-Drag-Free Dynamics
 **Authors:** Michael Ling and Yang Yang
-**arXiv:** [https://arxiv.org/abs/2512.08495](https://arxiv.org/abs/2512.08495)
+**Journal:** IEEE Transactions on Aerospace and Electronic Systems, volume 62 (2026)
+**DOI:** [10.1109/TAES.2026.3737763](https://doi.org/10.1109/TAES.2026.3737763)
 
-**Abstract:**
-Machine learning techniques using proper elements to reconnect families of satellite fragmentation debris have recently advanced, becoming key to space sustainability and domain awareness. However, an evolving circumterrestrial environment may limit their applicability, particularly when models are trained on outdated debris representations. In this work, we devise a computational pipeline using synthetic fragmentation data from explosive breakup events, generated via a Standard Breakup Model and propagated under a high-fidelity dynamical model. Proper elements are extracted using adapted algorithms for modified equinoctial (MEE), Poincaré (PNC), and quaternion (QTN) sets.
-Extending beyond previous approaches limited to MEE space, we include PNC and QTN sets to broaden the dynamical fingerprints available to the classifier. Neural networks trained on various element combinations are used to determine if fragment pairs share a parent. Crucially, we identify a fundamental limitation when applying standard quaternion sets to neural networks: the loss of orbital size information during feature normalization. We introduce an augmented representation (QTNp) that explicitly restores the semi-latus rectum, improving accuracy from 0.31 to 0.60 compared to the standard set. In synthetic Starlink-like LEO experiments, expanding proper-element sets generally improves discrimination. The best model, using a joint feature set (MEE + PNC + QTN), achieves an ROC-AUC of 0.858 compared to 0.789 for the MEE-only baseline, alongside higher accuracy and F1 scores.
+## Journal results
+
+The study compares modified equinoctial, Poincaré and quaternion proper elements for classifying
+whether synthetic debris fragments share a parent. An augmented quaternion representation, QTNp,
+adds an explicit orbital-size proxy and achieves the highest positive-class F1 (0.1245, compared
+with 0.1023 for standard QTN), with recall increasing from 0.156 to 0.263.
+
+MEE + QTNp achieves the highest ROC-AUC (0.656). QTNp, MEE + QTNp and MEE + PNC + QTNp share the
+highest PR-AUC (0.071). More element sets do not consistently improve same-parent retrieval.
+
+The benchmark is synthetic and excludes atmospheric drag. Thresholds for F1 and recall were selected
+posthoc on the evaluation set; these scores are not deployment-ready estimates or validation on
+real operational debris.
+
+[Explore the project](/project/debris-family-classification/).
 
 Congratulations to Michael and the team for this achievement!

@@ -44,10 +44,11 @@ subtitle = "Funded programs, external responsibility, and results that are on th
 
 ### Results on the record
 
-- **Debris family classification improved to ROC-AUC 0.858**, against 0.789 for the modified-equinoctial
-  baseline, by combining three proper-element sets. Restoring orbital size information to the quaternion
-  set lifted its accuracy from 0.31 to 0.60.
-  [arXiv:2512.08495](https://arxiv.org/abs/2512.08495)
+- **Debris family classification published in IEEE TAES.** In a synthetic, atmospheric-drag-free LEO
+  benchmark, MEE + QTNp achieved ROC-AUC 0.656, while QTNp achieved the highest positive-class F1
+  (0.1245, versus 0.1023 for standard QTN). The threshold-tuned F1 is not an operational performance
+  estimate.
+  [Journal paper](https://doi.org/10.1109/TAES.2026.3737763)
 - **Autonomous lunar orbit determination to approximately 11 m in 3-D position and 1.58 mm/s in
   velocity** using inter-satellite links alone, with no direct ground support to the navigation
   satellite (CR3BP case); approximately 1 km and 10 mm/s under a high-fidelity dynamical model after a

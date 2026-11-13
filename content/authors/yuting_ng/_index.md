@@ -5,17 +5,18 @@ authors:
 type: "authors"
 layout: "single"
 superuser: false
-role: "Undergraduate Honours Thesis Student"
+role: "Undergraduate Student"
 organizations:
   - name: "School of Mechanical and Manufacturing Engineering, UNSW Sydney"
     url: "https://www.unsw.edu.au"
-bio: "Researching range/range-constrained admissible regions for GEO tracklet-to-orbit association."
+bio: "Honours student researching tracklet-to-orbit association for manoeuvre detection and space object tracking."
 user_groups:
-  - "UG Thesis Students"
+  - "Undergraduate and Honours Students"
 interests:
   - "Space Object Characterisation"
   - "Optical Tracklet-to-Orbit Association"
-  - "Geostationary Orbit"
+  - "Satellite Manoeuvre Detection"
+  - "Space Object Tracking"
 ---
 
-Yuting (Angela) Ng is an undergraduate Honours thesis student at UNSW Sydney. Her thesis investigates a range/range-constrained admissible-region approach to tracklet-to-orbit association in geostationary orbit.
+Yuting (Angela) Ng is an undergraduate Honours student at UNSW Sydney. Her research explores tracklet-to-orbit association for satellite manoeuvre detection and space object tracking.

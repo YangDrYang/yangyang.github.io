@@ -14,7 +14,7 @@ user_groups = [
     "Research Staff",
     "Postdoc",
     "HDR Students",
-    "Honours Students",
+    "Undergraduate and Honours Students",
     "Alumni"
 ]
 +++

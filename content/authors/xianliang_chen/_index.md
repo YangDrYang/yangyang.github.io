@@ -1,5 +1,5 @@
 ---
-name: "Xianliang Chen"
+name: "Xianliang (Danny) Chen"
 authors:
   - "xianliang_chen"
 type: "authors"
@@ -9,9 +9,9 @@ role: "Postdoctoral Researcher"
 organizations:
   - name: "School of Mechanical and Manufacturing Engineering, UNSW Sydney"
     url: "https://www.unsw.edu.au"
-bio: "Working on lunar navigation."
+bio: "Postdoctoral researcher at the University of New South Wales (UNSW). His research focuses on autonomous systems, sensor fusion, satellite attitude estimation and control systems, navigation systems, embedded systems, lunar navigation, and spacecraft engineering, with a strong focus on translating engineering theory into practical implementation."
 user_groups:
   - "Postdoc"
 ---
 
-Xianliang Chen is a postdoctoral researcher working on lunar navigation.
+Xianliang (Danny) Chen is a postdoctoral researcher at the University of New South Wales (UNSW). His research focuses on autonomous systems, sensor fusion, satellite attitude estimation and control systems, navigation systems, embedded systems, lunar navigation, and spacecraft engineering, with a strong focus on translating engineering theory into practical implementation.

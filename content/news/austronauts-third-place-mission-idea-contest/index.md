@@ -1,10 +1,10 @@
 ---
-title: "🏆🎉 AUStornauts Win Third Place at the 10th Mission Idea Contest"
+title: "🏆🎉 AUStornauts Win Third Place at the 10th Mission Idea Contest Preliminary Workshop"
 date: 2026-11-09
 featured: true
-image:
-  caption: "The AUStornauts team at the 10th Mission Idea Contest in Taiwan"
-  focal_point: "Center"
+# image:
+#   caption: "The AUStornauts team at the 10th Mission Idea Contest in Taiwan"
+#   focal_point: "Center"
 summary: "AUStornauts VIP team members won third place at the 10th Mission Idea Contest in Taiwan with an active electrodynamic tether concept for avoiding debris in low Earth orbit."
 tags: ["AUStornauts", "CubeSat", "Space Debris", "Mission Idea Contest"]
 draft: false
@@ -14,10 +14,10 @@ Congratulations to AUStornauts VIP team members [Tiana Pendray](https://www.link
 
 Their idea, **“Active Electrodynamic Tether for Debris Avoidance in Low Earth Orbit,”** offers a creative approach to addressing the challenge of space debris.
 
-> “I am incredibly proud of this achievement and grateful for the support provided by the Faculty and School. I look forward to working with the team as we pursue new milestones and opportunities, including launching our CubeSat into orbit,” said Professor [Yang Y.](https://www.linkedin.com/in/yang-yang-space/), the project’s academic lead.
+As the Project Lead, I am incredibly proud of this achievement and grateful for the support provided by the Faculty and School. I look forward to working with the team as we pursue new milestones and opportunities, including launching our CubeSat into orbit.
 
 Congratulations to the whole team on this fantastic achievement! 🎉
 
-[Read more about the contest](https://lnkd.in/gawUiy_w).
+[Read more about the contest](https://www.spacemic.net/index.html).
 
-![The AUStornauts team at the 10th Mission Idea Contest in Taiwan](featured.jpeg)
+<!-- ![The AUStornauts team at the 10th Mission Idea Contest in Taiwan](featured.jpeg) -->

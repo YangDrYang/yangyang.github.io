@@ -12,9 +12,9 @@ subtitle = "The researchers and students who deliver the work."
 #   Edit each user's `user_groups` to add them to one or more of these groups.
 user_groups = [
     "Research Staff",
+    "Undergraduate Students",
     "Postdoc",
     "HDR Students",
-    "Undergraduate and Honours Students",
     "Alumni"
 ]
 +++

@@ -11,7 +11,7 @@ organizations:
     url: "https://www.unsw.edu.au"
 bio: "Honours student researching tracklet-to-orbit association for manoeuvre detection and space object tracking."
 user_groups:
-  - "Undergraduate and Honours Students"
+  - "Undergraduate Students"
 interests:
   - "Space Object Characterisation"
   - "Optical Tracklet-to-Orbit Association"
